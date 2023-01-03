@@ -1,0 +1,195 @@
+@media only screen and (max-width: 421px),(max-height: 321px){
+
+
+body{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+.fundo{
+    background-color: #ffffff;
+}
+.logo-button{
+    margin-top: 6%;
+    margin-left: 4%;
+    height: 70px;
+    width: 120px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.imagem-logo{
+    margin-left: 0px;
+    width: 130px; 
+    height:70px;
+}
+.initial-image{
+    margin-left: 21.5%;
+    margin-top: 5%;
+    height: 200px;
+    width: 200px;
+}
+.mito-verdade{
+    display: flex;
+
+}
+.seis{
+    font-size: 70px;
+    font-weight: 800;
+    margin-left: 10%;
+    color: #009dbf;
+}
+.strong-tittle{
+    margin-right: 20%;
+    font-size: 20px;
+    margin-left: 1.5%;
+    margin-top: 5%;
+}
+.texto-1{
+    font-size: 13px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.faca-quiz{
+    height: 30px;
+    margin-left: 10%;
+    background-color: #009dbf;
+    border: none;
+    text-align: center;
+
+    /* borda do botão :  */
+    border-radius: 4px;
+}
+.fazer-texto{
+    color: white;
+    margin-top:1px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.rodape{
+    margin-top: 10%;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+}
+.direitos{
+    padding-left: 15%;
+    padding-top: 2%;
+    font-size: 10px;
+    color: white;
+}
+.social{
+    display: flex;
+}
+.compartilhe{
+    padding-left: 15%;
+    font-size: 13px;
+}
+}
+
+@media only screen and (min-width:1455px),(min-height:636px){
+    body{
+        background-color: #ffffff;
+        height: 100%;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+    .logo-button{
+        margin-top: 2%;
+        margin-left: 9%;
+        height: 70px;
+        width: 120px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+    }
+    .imagem-logo{
+        margin-left: 0px;
+        width: 230px; 
+        height:100px;
+    }
+    .div-1{
+        width: 50%;
+        margin-left: 50px;
+    }
+    .div-2{
+        width: 50%;
+    }
+    .mito-verdade-texto{
+        margin-top: 3%;
+        width: 100%;
+        display: flex;
+    }
+    .initial-image{
+        margin-left: 20%;
+        margin-top: 5%;
+        height: 80%;
+        width: 80%;
+    }
+    .mito-verdade{
+        display: flex;
+    
+    }
+    .seis{
+        margin-top: 60px;
+        font-size: 120px;
+        font-weight: 800;
+        margin-left: 10%;
+        color: #009dbf;
+    }
+    .strong-tittle{
+        margin-right: 0%;
+        font-size: 40px;
+        margin-left: 1.5%;
+        margin-top: 10%;
+    }
+    .texto-1{
+        font-size: 25px;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .faca-quiz{
+        width: 150px;
+        height: 40px;
+        margin-left: 10%;
+        background-color: #009dbf;
+        border: none;
+        text-align: center;
+    
+        /* borda do botão :  */
+        border-radius: 8px;
+    }
+    .fazer-texto{
+        color: white;
+        margin-top:7px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .rodape{
+        display: flex;
+        margin-top: 3%;
+        width: 100%;
+        height: 70px;
+        background-color: black;
+    }
+    .direitos{
+        width: 80%;
+        padding-left: 5%;
+        padding-top: 0%;
+        font-size: 15px;
+        color: white;
+    }
+    .social{
+        width: 100%;
+        display: flex;
+    }
+    .compartilhe{
+        width: 100%;
+        margin-right: 5%;
+        margin-left: 55%;
+        font-size: 15px;
+    }
+}
