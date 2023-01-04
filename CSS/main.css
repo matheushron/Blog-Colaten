@@ -84,8 +84,214 @@ body{
     display: flex;
 }
 .compartilhe{
+
     padding-left: 15%;
     font-size: 13px;
+}
+
+/* ---------------------  PERGUNTAS E RESPOSTAS ----------------------------------  */
+.fisrt-quest{
+    display: block;
+}
+.resposta-verdadeiro{
+    display: none;
+}
+.resposta-mito{
+    display: none;
+}
+.second-quest{
+    display: none;
+}
+.resposta-verdadeiro-2{
+    display: none;
+}
+.resposta-mito-2{
+    display: none;
+}
+.third-quest{
+    display: none;
+}
+.resposta-verdadeiro-3{
+    display: none;
+}
+.resposta-mito-3{
+    display: none;
+}
+.fourth-quest{
+    display: none;
+}
+.resposta-verdadeiro-4{
+    display: none;
+}
+.resposta-mito-4{
+    display: none;
+}
+.fifth-quest{
+    display: none;
+}
+.resposta-verdadeiro-5{
+    display: none;
+}
+.resposta-mito-5{
+    display: none;
+}
+.sixth-quest{
+    display: none;
+}
+.resposta-verdadeiro-6{
+    display: none;
+}
+.resposta-mito-6{
+    display: none;
+}
+.finalizacao{
+    display: none;
+}
+
+
+
+
+.img-quest-1{
+    margin-right: 30px;
+    margin-left: 60px;
+    width: 70%; 
+    height:5%;
+}
+.contagem{
+    color: #05738d;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.pergunta-1{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.resposta-mito-verdade{
+    margin-top: 40px;
+    display: flex;
+}
+.verdadeiro{
+    background-color: #ffffff00;
+    width: 130px;
+    height: 50px;
+    margin-left: 30px;
+    
+    /* borda do botão: */
+    border-radius: 5px;
+}
+.mito{
+    background-color: #ffffff00;
+    width: 130px;
+    height: 50px;
+    margin-left: 10px;
+    
+    /* borda do botão  */
+    border-radius: 5px;
+
+}
+.correct-answer{
+    margin-top: 4%;
+    margin-left: 6%;
+}
+.text-tittle{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 15px;
+}
+.text{
+    margin-top: 15px;
+    font-weight: 100;
+    margin-right: 5%;
+    margin-left: 5%; 
+    text-align: left;
+}
+.finalizacao{
+    height: 100%;
+    width: 100%;
+}
+.final-image{
+    margin-left: 4.5%;
+    margin-top: 5%;
+    height: 200px;
+    width: 300px;
+
+}
+.acertos{
+
+}
+.acerto{
+    margin-left: 6%;
+    font-size: 30px;
+}
+.texto-acerto{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 100;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.refazer{
+    margin-top: 25px;
+    background-color: #ffffff;
+    height: 30px;
+    width: 150px;
+    margin-left: 26%;
+
+    /* borda do botão  */
+    border-color: #009dbf;
+    border-radius: 7px;
+}
+.refazer-quiz{
+    color: #009dbf;
+}
+.social-final{
+    padding-top: 15px;
+    margin-left: 22%;
+}
+.preencher{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    height: 220px;
+    background-color: #009dbf;
+
+    /* borda da div */
+    border-radius: 10px;
+
+}
+.titulo-preencher-box{
+    margin-left: 6%;
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+.input-nome{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 6%;
+    width: 85%;
+}
+.input-email{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 6%;
+    width: 85%;
+}
+.botao-envia-dados{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: #009cbf00;
+}
+.enviar-info-texto{
+    text-align: center;
+    color: white;
 }
 }
 
@@ -172,7 +378,7 @@ body{
         display: flex;
         margin-top: 3%;
         width: 100%;
-        height: 70px;
+        height: 80px;
         background-color: black;
     }
     .direitos{
@@ -187,9 +393,131 @@ body{
         display: flex;
     }
     .compartilhe{
+        margin-top: 15px;
         width: 100%;
         margin-right: 5%;
         margin-left: 55%;
         font-size: 15px;
+    }
+
+
+    /* --------------------perguntas e respostas------------- */
+    .fisrt-quest{
+        display: block;
+    }
+    .resposta-verdadeiro{
+        display: none;
+    }
+    .resposta-mito{
+        display: none;
+    }
+    .second-quest{
+        display: none;
+    }
+    .resposta-verdadeiro-2{
+        display: none;
+    }
+    .resposta-mito-2{
+        display: none;
+    }
+    .third-quest{
+        display: none;
+    }
+    .resposta-verdadeiro-3{
+        display: none;
+    }
+    .resposta-mito-3{
+        display: none;
+    }
+    .fourth-quest{
+        display: none;
+    }
+    .resposta-verdadeiro-4{
+        display: none;
+    }
+    .resposta-mito-4{
+        display: none;
+    }
+    .fifth-quest{
+        display: none;
+    }
+    .resposta-verdadeiro-5{
+        display: none;
+    }
+    .resposta-mito-5{
+        display: none;
+    }
+    .sixth-quest{
+        display: none;
+    }
+    .resposta-verdadeiro-6{
+        display: none;
+    }
+    .resposta-mito-6{
+        display: none;
+    }
+    .finalizacao{
+        display: none;
+    }
+    
+    .img-quest-1{
+        margin-top: -200px;
+        margin-left: 7%;
+        height: 500px;
+    }
+    .pergunta-toda{
+        margin-left: 10%;
+        margin-right: 40%;
+        display: flex;
+    }
+    .contagem{
+        margin-top: 100px;
+        color: #05738d;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .resposta-mito-verdade{
+        margin-left: -10px;
+        margin-top: 40px;
+        display: flex;
+    }
+    .mito{
+        background-color: #ffffff00;
+        width: 130px;
+        height: 50px;
+        margin-left: 10px;
+        
+        /* borda do botão  */
+        border-radius: 5px;
+    }
+    .verdadeiro{
+        background-color: #ffffff00;
+        width: 130px;
+        height: 50px;
+        margin-left: 30px;
+        
+        /* borda do botão: */
+        border-radius: 5px;
+    }
+    .correct-answer{
+        margin-top: 13%;
+        margin-left: 6%;
+    }
+    .answer-text{
+        /* margin-top: -30px; */
+        margin-left: 6%;
+        margin-right: 10%;
+        display: flex;
+    }
+    .proximo-quiz{
+        margin-top: 80px;
+        height: 40px;
+        margin-left: 0%;
+        background-color: #009dbf;
+        border: none;
+        text-align: center;
+    
+        /* borda do botão :  */
+        border-radius: 4px;
     }
 }
