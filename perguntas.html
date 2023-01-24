@@ -6,52 +6,225 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="saúde,bem-estar,vitaminas,nutrientes,estrresse,qualidade de vida">
     <meta name="description" content="Informações sobre bem estar com Colaten">
-    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="CSS/main.css" media="screen" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/802204386a.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/Application/Js/principal.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
-        integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
 </head>
 <body>
-    <div class="fisrt-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo" >
+    <div class="primeira-tela">
+        <div id="first-quest-Js" class="fisrt-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+            <div class="fundo" >
+                <a href="https://marjan.com.br">
+                    <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+                </a>
+            </div>
+            <div class="pergunta-toda">
+                <div>
+                    <img src="imagens/pergunta-1.png" class="img-quest-1">
+                </div>
+                <div class="parte-direita-pergunta1">
+                    <div>
+                        <h3 class="contagem-1"> <strong>1</strong>/6</h3>
+                
+                        <h2 class="pergunta-1">O colágeno auxilia na manutenção da saúde articular?</h2>
+                    </div>
+            
+                    <div class="resposta-mito-verdade">          
+                        <button onClick="onClick()" id="mitoButton-1" class="mito">
+                            <i style="color: red;" class="fa fa-times"></i>
+                            MITO
+                        </button>
+
+                        <button class="verdadeiro" id="trueButton-1" type="button" onClick="onClick()">
+                            <i style="color: green;" class="fa fa-solid fa-check"></i>
+                            VERDADE
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="rodape-de-resposta">
+                <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+                <div  class="social">
+                    <p class="compartilhe" style="color: white;">Compartilhe:
+                        <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                            <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="">
+                            <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div id="tela-verdadeiro-1" class="resposta-verdadeiro" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+            <div class="fundo">
+                <a href="https://marjan.com.br">
+                    <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+                </a>
+            </div>
+            <div class="body-resposta-1">
+                <div class="parte-esquerda-resposta-1">
+                    <h6 class="correct-answer">
+                        <i style="color: green;" class="fa fa-solid fa-check"></i>
+                        RESPOSTA CORRETA!
+                    </h6>
+                    <div class="answer-text">
+                        <div class="justificativa-resposta">
+                            <h2 class="text-tittle">
+                                <strong>VERDADE!</strong> O Colágeno auxilia na manutenção da saúde articular. 
+                            </h2>
+                            <P class="text">
+                                As desordens articulares com inflamação e erosão são causadas 
+                                por uma resposta imune do corpo contra o colágeno tipo II endógeno. 
+                                Estudos indicam que suplementação com baixas doses de colágeno tipo 
+                                II por via oral são capazes de modular a resposta imune.
+                            </P>
+                        </div>
+                        <button id="proximo-to-2" class="faca-quiz" onClick="onClick()" style="color: white;">
+                            Próximo 
+                            <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <img src="imagens/pergunta-1.png" class="img-quest-1-resposta">
+                </div>
+            </div>
+            <div class="rodape-de-resposta">
+                <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+                <div  class="social">
+                    <p class="compartilhe" style="color: white;">Compartilhe:
+                        <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                            <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="">
+                            <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div id="tela-mito-1" class="resposta-mito" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+            <div class="fundo">
+                <a href="https://marjan.com.br">
+                    <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+                </a>
+            </div>
+            <div class="body-resposta-1">
+                <div class="parte-esquerda-resposta-1">
+                    <h6 class="correct-answer">
+                        <i style="color: red;" class="fa fa-times"></i>
+                        RESPOSTA INCORRETA
+                    </h6>
+            
+                    <div class="answer-text">
+                        <h2 class="text-tittle">
+                            <strong>VERDADE!</strong> O Colágeno auxilia na manutenção da saúde articular. 
+                        </h2>
+                        <P class="text">
+                            As desordens articulares com inflamação e erosão são causadas 
+                            por uma resposta imune do corpo contra o colágeno tipo II endógeno. 
+                            Estudos indicam que suplementação com baixas doses de colágeno tipo 
+                            II por via oral são capazes de modular a resposta imune.
+                        </P>
+                    </div>
+                    <button onClick="onClick()" id="proximo-to-2.2" class="faca-quiz" >
+                        <p class="fazer-texto">Próximo
+                            <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
+                            </i>
+                        </p>
+                    </button>
+                </div>
+                <div>
+                    <img src="imagens/pergunta-1.png" class="img-quest-1-resposta">
+                </div>
+            </div>
+            
+    
+            <div class="rodape-de-resposta">
+                <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+                <div  class="social">
+                    <p class="compartilhe" style="color: white;">Compartilhe:
+                        <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                            <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="">
+                            <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------DIVISÃO DE PERGUNTAS-------------------------------------------------- -->
+
+    <div id="second-quest-Js" class="second-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+        <div class="fundo">
             <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
             </a>
         </div>
         <div class="pergunta-toda">
-            <img src="/imagens/pergunta-1.png" class="img-quest-1">
-            <div style="margin-left: 200px;">
+            <div>
+                <img src="imagens/pergunta-2.png" class="img-quest-2">
+            </div>
+            <div class="parte-direita-pergunta2">
                 <div>
-                    <h3 class="contagem">1/6</h3>
+                    <h3 class="contagem-2"> <strong>2</strong>/6</h3>
             
-                    <h2 class="pergunta-1">O colágeno auxilia na manutenção da saúde articular?</h2>
-                </div>
-        
-                <div class="resposta-mito-verdade">          
-                    <button class="mito">
+                    <h2 class="pergunta-2">Colágeno é tudo igual</h2>
+                </div>         
+                <div class="resposta-mito-verdade-2">          
+                    <button id="mitoButton-2" class="mito" type="button" onClick="onClick()">
                         <i style="color: red;" class="fa fa-times"></i>
                         MITO
                     </button>
-        
-                    <button class="verdadeiro">
+
+                    <button class="verdadeiro"  id="trueButton-2">
                         <i style="color: green;" class="fa fa-solid fa-check"></i>
                         VERDADE
                     </button>
+        
                 </div>
             </div>
         </div>
         
         
-        <div class="rodape">
-            <p style="margin-top: 30px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
+        <div class="rodape-de-resposta">
+            <p class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
                 <p class="compartilhe" style="color: white;">Compartilhe:
                     <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
                         <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
@@ -72,43 +245,46 @@
             </div>
         </div>
     </div>
-
-    <div class="resposta-verdadeiro" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+    
+    <div id="tela-verdadeiro-2" class="resposta-verdadeiro-2" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
         <div class="fundo">
             <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
             </a>
         </div>
-        <h6 class="correct-answer">
-            <i style="color: green;" class="fa fa-solid fa-check"></i>
-            RESPOSTA CORRETA!
-        </h6>
-
-        <div class="answer-text">
-            <div>
-                <h2 class="text-tittle">
-                    <strong>VERDADE!</strong> O Colágeno auxilia na manutenção da saúde articular. 
-                </h2>
-                <P class="text">
-                    As desordens articulares com inflamação e erosão são causadas 
-                    por uma resposta imune do corpo contra o colágeno tipo II endógeno. 
-                    Estudos indicam que suplementação com baixas doses de colágeno tipo 
-                    II por via oral são capazes de modular a resposta imune.
-                </P>
-                <button class="proximo-quiz">
+        <div class="body-resposta-1">
+            <div class="parte-esquerda-resposta-2">
+                <h6 class="correct-answer">
+                    <i style="color: red;" class="fa fa-times"></i>
+                    RESPOSTA INCORRETA
+                </h6>
+                <div class="answer-text-2">
+                    <h2 class="text-tittle">
+                        <strong>MITO!</strong> Não é porque você está comprando suplemento de colágeno que, necessariamente, 
+                        ele vai suprir as suas necessidades orgânicas.
+                    </h2>
+                    <P class="text">
+                        Para começar, o colágeno pode ser hidrolisado ou não. A versão hidrolisada é composta por partículas 
+                        menores que facilitam a absorção no organismo. Já o colágeno não hidrolisado é a estrutura da proteína 
+                        intacta, ou seja, não desnaturada.
+                    </P>
+                </div>
+                <button id="proximo-to-3" class="faca-quiz">
                     <p class="fazer-texto">Próximo
                         <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
                         </i>
                     </p>
                 </button>
             </div>
-            
-            <img src="/imagens/pergunta-1.png" class="img-quest-1">
+            <div>
+                <img src="imagens/pergunta-2.png" class="img-quest-2-respostas">
+            </div>
         </div>
 
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
+
+        <div class="rodape-de-resposta">
+            <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
                 <p class="compartilhe" style="color: white;">Compartilhe:
                     <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
                         <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
@@ -130,39 +306,46 @@
         </div>
     </div>
 
-    <div class="resposta-mito" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+    <div id="tela-mito-2" class="resposta-mito-2" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
         <div class="fundo">
             <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
             </a>
         </div>
-        <h6 class="correct-answer">
-            <i style="color: red;" class="fa fa-times"></i>
-            RESPOSTA INCORRETA
-        </h6>
-
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>VERDADE!</strong> O Colágeno auxilia na manutenção da saúde articular. 
-            </h2>
-            <P class="text">
-                As desordens articulares com inflamação e erosão são causadas 
-                por uma resposta imune do corpo contra o colágeno tipo II endógeno. 
-                Estudos indicam que suplementação com baixas doses de colágeno tipo 
-                II por via oral são capazes de modular a resposta imune.
-            </P>
+        <div class="body-resposta-1">
+            <div class="body-resposta-1">
+                <div class="parte-esquerda-resposta-2">
+                    <h6 class="correct-answer">
+                        <i style="color: green;" class="fa fa-solid fa-check"></i>
+                        RESPOSTA CORRETA!
+                    </h6>
+                    <div class="answer-text-2">
+                        <h2 class="text-tittle">
+                            <strong>MITO!</strong> Não é porque você está comprando suplemento de colágeno que, necessariamente, 
+                            ele vai suprir as suas necessidades orgânicas.
+                        </h2>
+                        <P class="text">
+                            Para começar, o colágeno pode ser hidrolisado ou não. A versão hidrolisada é composta por partículas 
+                            menores que facilitam a absorção no organismo. Já o colágeno não hidrolisado é a estrutura da proteína 
+                            intacta, ou seja, não desnaturada.
+                        </P>
+                    </div>
+                    <button id="proximo-to-2.3" onClick="onClick()" id="proximo-to-2.3" class="faca-quiz">
+                        <p class="fazer-texto">Próximo
+                            <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
+                            </i>
+                        </p>
+                    </button>
+                </div>
+                <div>
+                    <img src="imagens/pergunta-2.png" class="img-quest-2-respostas">
+                </div>
+            </div>
         </div>
 
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
+        <div class="rodape-de-resposta">
+            <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
                 <p class="compartilhe" style="color: white;">Compartilhe:
                     <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
                         <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
@@ -184,195 +367,41 @@
         </div>
     </div>
 
-    <!-- ----------------------------------------------------------------------------------------- -->
-
-    <div class="second-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-        <img src="/imagens/pergunta-2.png" class="img-quest-1">
-        <div>
-            <h3 class="contagem">2/6</h3>
-    
-            <h2 class="pergunta-1">Colágeno é tudo igual</h2>
-        </div>
-
-        <div class="resposta-mito-verdade">          
-            <button class="mito">
-                <i style="color: red;" class="fa fa-times"></i>
-                MITO
-            </button>
-
-            <button class="verdadeiro">
-                <i style="color: green;" class="fa fa-solid fa-check"></i>
-                VERDADE
-            </button>
-        </div>
+    <!-- ---------------------------------------DIVISÃO DE PERGUNTAS-------------------------------------------------- -->
         
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="resposta-verdadeiro-2" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-        <h6 class="correct-answer">
-            <i style="color: red;" class="fa fa-times"></i>
-            RESPOSTA INCORRETA
-        </h6>
 
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>MITO!</strong> Não é porque você está comprando suplemento de colágeno que, necessariamente, 
-                ele vai suprir as suas necessidades orgânicas.
-            </h2>
-            <P class="text">
-                Para começar, o colágeno pode ser hidrolisado ou não. A versão hidrolisada é composta por partículas 
-                menores que facilitam a absorção no organismo. Já o colágeno não hidrolisado é a estrutura da proteína 
-                intacta, ou seja, não desnaturada.
-            </P>
-        </div>
-
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="resposta-mito-2" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-        <h6 class="correct-answer">
-            <i style="color: green;" class="fa fa-solid fa-check"></i>
-            RESPOSTA CORRETA!
-        </h6>
-
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>MITO!</strong> Não é porque você está comprando suplemento de colágeno que, necessariamente, 
-                ele vai suprir as suas necessidades orgânicas.
-            </h2>
-            <P class="text">
-                Para começar, o colágeno pode ser hidrolisado ou não. A versão hidrolisada é composta por partículas 
-                menores que facilitam a absorção no organismo. Já o colágeno não hidrolisado é a estrutura da proteína 
-                intacta, ou seja, não desnaturada.
-            </P>
-        </div>
-
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-        <!-- ----------------------------------------------------------------------------------------- -->
-
-    <div class="third-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+    <div id="third-quest-Js" class="third-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
             <div class="fundo">
                 <a href="https://marjan.com.br">
-                    <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
+                    <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
                 </a>
             </div>
-            <img src="/imagens/pergunta-3.png" class="img-quest-1">
-            <div>
-                <h3 class="contagem">3/6</h3>
-        
-                <h2 class="pergunta-1">Colágeno engorda</h2>
-            </div>
-    
-            <div class="resposta-mito-verdade">          
-                <button class="mito">
-                    <i style="color: red;" class="fa fa-times"></i>
-                    MITO
-                </button>
-    
-                <button class="verdadeiro">
-                    <i style="color: green;" class="fa fa-solid fa-check"></i>
-                    VERDADE
-                </button>
-            </div>
+            <div class="body-pergunta-3">
+                <div>
+                    <img src="imagens/pergunta-3.png" class="img-quest-3">
+                </div>
+               <div class="direita-pergunta-3">
+                <div>
+                    <h3 class="contagem-3"> <strong>3</strong>/6</h3>
             
-            <div class="rodape">
-                <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-                <div style="margin-top: 15px;" class="social">
+                    <h2 class="pergunta-3">Colágeno engorda</h2>
+               </div>
+                <div class="resposta-mito-verdade-3">          
+                    <button id="mitoButton-3" type="button" onClick="onClick()"  class="mito">
+                        <i style="color: red;" class="fa fa-times"></i>
+                        MITO
+                    </button>
+        
+                    <button id="trueButton-3" class="verdadeiro">
+                        <i style="color: green;" class="fa fa-solid fa-check"></i>
+                        VERDADE
+                    </button>
+                </div>
+               </div>
+            </div>
+            <div class="rodape-de-resposta">
+                <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+                <div  class="social">
                     <p class="compartilhe" style="color: white;">Compartilhe:
                         <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
                             <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
@@ -394,641 +423,44 @@
             </div>
     </div>
 
-    <div class="resposta-verdadeiro-3" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+    <div id="tela-verdadeiro-3" class="resposta-verdadeiro-3" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
         <div class="fundo">
             <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
             </a>
         </div>
-        <h6 class="correct-answer">
-            <i style="color: red;" class="fa fa-times"></i>
-            RESPOSTA INCORRETA
-        </h6>
-
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>MITO!</strong> O colágeno não tem nenhuma relação com o ganho ou a perda de peso.
-            </h2>
-            <P class="text">
-                Trata-se de uma proteína indispensável para a formação de todos os tecidos em nosso corpo. Por mais que a sua suplementação tenha algumas calorias acompanhando, elas não são suficientes para resultar no ganho de peso.
-            </P>
-        </div>
-
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="resposta-mito-3" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-        <h6 class="correct-answer">
-            <i style="color: green;" class="fa fa-solid fa-check"></i>
-            RESPOSTA CORRETA!
-        </h6>
-
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>MITO!</strong> O colágeno não tem nenhuma relação com o ganho ou a perda de peso.
-            </h2>
-            <P class="text">
-                Trata-se de uma proteína indispensável para a formação de todos os tecidos em nosso corpo. Por mais que a 
-                sua suplementação tenha algumas calorias acompanhando, elas não são suficientes para resultar no ganho de peso.
-            </P>
-        </div>
-
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-        <!-- ----------------------------------------------------------------------------------------- -->
-
-    <div class="fourth-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-            <div class="fundo">
-                <a href="https://marjan.com.br">
-                    <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-                </a>
-            </div>
-            <img src="/imagens/pergunta-4.png" class="img-quest-1">
-            <div>
-                <h3 class="contagem">4/6</h3>
-        
-                <h2 class="pergunta-1">Colágeno fortalece as unhas e os cabelos.</h2>
-            </div>
-    
-            <div class="resposta-mito-verdade">          
-                <button class="mito">
+        <div class="body-resposta-1">
+            <div class="parte-esquerda-resposta-3">
+                <h6 class="correct-answer">
                     <i style="color: red;" class="fa fa-times"></i>
-                    MITO
-                </button>
-    
-                <button class="verdadeiro">
-                    <i style="color: green;" class="fa fa-solid fa-check"></i>
-                    VERDADE
-                </button>
-            </div>
-            
-            <div class="rodape">
-                <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-                <div style="margin-top: 15px;" class="social">
-                    <p class="compartilhe" style="color: white;">Compartilhe:
-                        <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                            <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                        </a>
-        
-                        <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                            <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                        </a>
-        
-                        <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                            <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                        </a>
-        
-                        <a style="color: aliceblue;" href="">
-                            <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                        </a>
-                    </p>
-                </div>
-            </div>
-    </div>
-
-    <div class="resposta-verdadeiro-4" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-        <h6 class="correct-answer">
-            <i style="color: green;" class="fa fa-solid fa-check"></i>
-            RESPOSTA CORRETA! 
-        </h6>
-
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>VERDADE!</strong> Por ser composta pelos aminoácidos responsáveis pelo fortalecimento de unhas e cabelos,
-            </h2>
-            <P class="text">
-                é natural que o colágeno contribua para que os dois cresçam de forma mais rápida e saudável. Uma rotina saudável e 
-                uma dieta balanceada e rica em nutrientes pode intensificar tal ação.
-            </P>
-        </div>
-
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="resposta-mito-4" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-        <h6 class="correct-answer">
-            <i style="color: red;" class="fa fa-times"></i>
-            RESPOSTA INCORRETA
-        </h6>
-
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>VERDADE!</strong> Por ser composta pelos aminoácidos responsáveis pelo fortalecimento de unhas e cabelos,
-            </h2>
-            <P class="text">
-                é natural que o colágeno contribua para que os dois cresçam de forma mais rápida e saudável. Uma rotina saudável e uma dieta balanceada e rica em nutrientes pode intensificar tal ação.
-
-
-            </P>
-        </div>
-
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-        <!-- ----------------------------------------------------------------------------------------- -->
-
-    <div class="fifth-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-            <div class="fundo">
-                <a href="https://marjan.com.br">
-                    <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-                </a>
-            </div>
-            <img src="/imagens/pergunta-5.png" class="img-quest-1">
-            <div>
-                <h3 class="contagem">5/6</h3>
-        
-                <h2 class="pergunta-1">Comer gelatina já é o suficiente para absorver uma grande quantidade de colágeno.</h2>
-            </div>
-    
-            <div class="resposta-mito-verdade">          
-                <button class="mito">
-                    <i style="color: red;" class="fa fa-times"></i>
-                    MITO
-                </button>
-    
-                <button class="verdadeiro">
-                    <i style="color: green;" class="fa fa-solid fa-check"></i>
-                    VERDADE
-                </button>
-            </div>
-            
-            <div class="rodape">
-                <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-                <div style="margin-top: 15px;" class="social">
-                    <p class="compartilhe" style="color: white;">Compartilhe:
-                        <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                            <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                        </a>
-        
-                        <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                            <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                        </a>
-        
-                        <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                            <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                        </a>
-        
-                        <a style="color: aliceblue;" href="">
-                            <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                        </a>
-                    </p>
-                </div>
-            </div>
-    </div>
-
-    <div class="resposta-verdadeiro-5" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-        <h6 class="correct-answer">
-            <i style="color: red;" class="fa fa-times"></i>
-            RESPOSTA INCORRETA
-        </h6>
-        
-
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>MITO! </strong> Apesar de ser uma associação muito comum, a gelatina não é um alimento rico em colágeno.
-            </h2>
-            <P class="text">
-                Aliás, costuma ser uma das fontes mais pobres da substância, repleta de açúcares e corantes artificiais. 
-                Algumas gelatinas mais puras, que não têm conservantes, nem aditivos artificiais, podem contribuir com a redução 
-                da retenção de líquido no seu corpo, mas não têm relação com o colágeno.
-            </P>
-        </div>
-
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="resposta-mito-5" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-        <h6 class="correct-answer">
-            <i style="color: green;" class="fa fa-solid fa-check"></i>
-            RESPOSTA CORRETA! 
-        </h6>
-
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>MITO!</strong> Apesar de ser uma associação muito comum, a gelatina não é um alimento rico em colágeno.
-            </h2>
-            <P class="text">
-                Aliás, costuma ser uma das fontes mais pobres da substância, repleta de açúcares e corantes artificiais. 
-                Algumas gelatinas mais puras, que não têm conservantes, nem aditivos artificiais, podem contribuir com a redução 
-                da retenção de líquido no seu corpo, mas não têm relação com o colágeno.
-            </P>
-        </div>
-
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-        <!-- ----------------------------------------------------------------------------------------- -->
-
-    <div class="sixth-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-            <div class="fundo">
-                <a href="https://marjan.com.br">
-                    <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-                </a>
-            </div>
-            <img src="/imagens/pergunta-6.png" class="img-quest-1">
-            <div>
-                <h3 class="contagem">5/6</h3>
-        
-                <h2 class="pergunta-1">O nosso corpo produz colágeno.</h2>
-            </div>
-    
-            <div class="resposta-mito-verdade">          
-                <button class="mito">
-                    <i style="color: red;" class="fa fa-times"></i>
-                    MITO
-                </button>
-    
-                <button class="verdadeiro">
-                    <i style="color: green;" class="fa fa-solid fa-check"></i>
-                    VERDADE
-                </button>
-            </div>
-            
-            <div class="rodape">
-                <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-                <div style="margin-top: 15px;" class="social">
-                    <p class="compartilhe" style="color: white;">Compartilhe:
-                        <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                            <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                        </a>
-        
-                        <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                            <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                        </a>
-        
-                        <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                            <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                        </a>
-        
-                        <a style="color: aliceblue;" href="">
-                            <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                        </a>
-                    </p>
-                </div>
-            </div>
-    </div>
-
-    <div class="resposta-verdadeiro-6" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-        <h6 class="correct-answer">
-            <i style="color: green;" class="fa fa-solid fa-check"></i>
-            RESPOSTA CORRETA! 
-        </h6>
-        
-
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>VERDADE! </strong> Como já dito anteriormente, o colágeno é o principal componente do estrutural do tecido cartilaginoso.
-
-            </h2>
-            <P class="text">
-                O chamado “Colágeno endógeno” é aquele produzido pelo próprio corpo e que atual em diversas funções do nosso organismo.
-            </P>
-        </div>
-
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="resposta-mito-6" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-        <h6 class="correct-answer">
-            <i style="color: red;" class="fa fa-times"></i>
-            RESPOSTA INCORRETA
-        </h6>
-
-        <div class="answer-text">
-            <h2 class="text-tittle">
-                <strong>VERDADE!</strong> Como já dito anteriormente, o colágeno é o principal componente do estrutural do tecido cartilaginoso.
-            </h2>
-            <P class="text">
-                O chamado “Colágeno endógeno” é aquele produzido pelo próprio corpo e que atual em diversas funções do nosso organismo.
-            </P>
-        </div>
-
-        <button class="faca-quiz">
-            <p class="fazer-texto">Próximo
-                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
-                </i>
-            </p>
-        </button>
-
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
-                <p class="compartilhe" style="color: white;">Compartilhe:
-                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: aliceblue;" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-        <!-- ----------------------------------------------------------------------------------------- -->
-
-    <div class="finalizacao">
-        <div class="fundo">
-            <a href="https://marjan.com.br">
-                <button class="logo-button"><img class="imagem-logo" src="/imagens/logo.png" ></button>
-            </a>
-        </div>
-            <img class="final-image" src="/imagens/final.png">
-        <div class="acertos">
-            <h1 class="acerto">
-                Você acertou <strong>X</strong> de 6!
-            </h1>
-        </div>
-        <div class="acertos-texto">
-            <h6 class="texto-acerto">
-                Conheça mais sobre a <strong>Colaten</strong> e receba informações sobre colágeno preenchendo o formulário abaixo.
-            </h6>
-        </div>
-            <a href="">
-                <button class="refazer">
-                    <p class="refazer-quiz">
-                        <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-left"></i>
-                        Refazer o quiz
-                    </p>
-                </button>
-            </a>
-            <div style="margin-top: 15px;" class="social-final">
-                    <a style="color: rgb(0, 0, 0);" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
-                    </a>
-    
-                    <a style="color: rgb(0, 0, 0);" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
-                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
-                    </a>
-    
-                    <a style="color: rgb(0, 0, 0);" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
-                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
-                    </a>
-    
-                    <a style="color: rgb(0, 0, 0);" href="">
-                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
-                    </a>
-                </p>
-            </div>
-        
-        <div class="preencher">
-            <div class="titulo-preencher">
-                <h6 class="titulo-preencher-box">
-                    Informações:
+                    RESPOSTA INCORRETA
                 </h6>
+        
+                <div class="answer-text">
+                    <h2 class="text-tittle">
+                        <strong>MITO!</strong> O colágeno não tem nenhuma relação com o ganho ou a perda de peso.
+                    </h2>
+                    <P class="text">
+                        Trata-se de uma proteína indispensável para a formação de todos os tecidos em nosso corpo. Por mais que a sua suplementação tenha algumas calorias acompanhando, elas não são suficientes para resultar no ganho de peso.
+                    </P>
+                </div>
+        
+                <button id="proximo-to-4" class="faca-quiz">
+                    <p class="fazer-texto">Próximo
+                        <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
+                        </i>
+                    </p>
+                </button>
             </div>
-            <div class="inputs">
-                <input type="text" class="input-nome" placeholder="Nome">
-                <input type="text" class="input-email" placeholder="E-mail">
+            <div>
+                <img src="imagens/pergunta-3.png" class="img-quest-3-respostas">
             </div>
-            <a class="botao-envia-dados" href="#">
-                <p class="enviar-info-texto">Enviar</p>
-            </a>
         </div>
-        <div class="rodape">
-            <p style="margin-top: 15px;" class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
-            <div style="margin-top: 15px;" class="social">
+       
+
+        <div class="rodape-de-resposta">
+            <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
                 <p class="compartilhe" style="color: white;">Compartilhe:
                     <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
                         <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
@@ -1042,7 +474,677 @@
                         <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
                     </a>
     
-                    <a style="color: aliceblue;" href="#">
+                    <a style="color: aliceblue;" href="">
+                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="tela-mito-3"  class="resposta-mito-3" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+        <div class="fundo">
+            <a href="https://marjan.com.br">
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+            </a>
+        </div>
+        <div class="body-resposta-1">
+            <div class="parte-esquerda-resposta-3">
+                <h6 class="correct-answer">
+                    <i style="color: green;" class="fa fa-solid fa-check"></i>
+                    RESPOSTA CORRETA!
+                </h6>
+                <div class="answer-text">
+                    <h2 class="text-tittle">
+                        <strong>MITO!</strong> O colágeno não tem nenhuma relação com o ganho ou a perda de peso.
+                    </h2>
+                    <P class="text">
+                        Trata-se de uma proteína indispensável para a formação de todos os tecidos em nosso corpo. Por mais que a sua suplementação tenha algumas calorias acompanhando, elas não são suficientes para resultar no ganho de peso.
+                    </P>
+                </div>
+        
+                <button id="proximo-to-2.4" class="faca-quiz">
+                    <p class="fazer-texto">Próximo
+                        <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
+                        </i>
+                    </p>
+                </button>
+            </div>
+            <div>
+                <img src="imagens/pergunta-3.png" class="img-quest-3-respostas">
+            </div>
+        </div>
+
+        <div class="rodape-de-resposta">
+            <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
+                <p class="compartilhe" style="color: white;">Compartilhe:
+                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="">
+                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------DIVISÃO DE PERGUNTAS-------------------------------------------------- -->
+
+    <div id="fourth-quest-Js" class="fourth-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+            <div class="fundo">
+                <a href="https://marjan.com.br">
+                    <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+                </a>
+            </div>
+            <div class="body-pergunta-4">
+                <div>
+                    <img src="imagens/pergunta-4.png" class="img-quest-4">
+                </div>
+                <div class="direita-pergunta-4">
+                    <div>
+                        <h3 class="contagem-4"> <strong>4</strong>/6</h3>
+                
+                        <h2 class="pergunta-4">Colágeno fortalece as unhas e os cabelos.</h2>
+                    </div>
+            
+                    <div class="resposta-mito-verdade-4">          
+                        <button id="mitoButton-4" class="mito">
+                            <i style="color: red;" class="fa fa-times"></i>
+                            MITO
+                        </button>
+            
+                        <button id="trueButton-4" type="button" onClick="onClick()" class="verdadeiro">
+                            <i style="color: green;" class="fa fa-solid fa-check"></i>
+                            VERDADE
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="rodape-de-resposta">
+                <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+                <div  class="social">
+                    <p class="compartilhe" style="color: white;">Compartilhe:
+                        <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                            <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="">
+                            <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+    </div>
+
+    <div id="tela-verdadeiro-4" class="resposta-verdadeiro-4" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+        <div class="fundo">
+            <a href="https://marjan.com.br">
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+            </a>
+        </div>
+        <div class="body-resposta-1">
+            <div class="parte-esquerda-resposta-3">
+                <h6 class="correct-answer">
+                    <i style="color: green;" class="fa fa-solid fa-check"></i>
+                    RESPOSTA CORRETA! 
+                </h6>
+        
+                <div class="answer-text">
+                    <h2 class="text-tittle">
+                        <strong>VERDADE!</strong> Por ser composta pelos aminoácidos responsáveis pelo fortalecimento de unhas e cabelos,
+                    </h2>
+                    <P class="text">
+                        é natural que o colágeno contribua para que os dois cresçam de forma mais rápida e saudável. Uma rotina saudável e 
+                        uma dieta balanceada e rica em nutrientes pode intensificar tal ação.
+                    </P>
+                </div>
+        
+                <button id="proximo-to-5" class="faca-quiz">
+                    <p class="fazer-texto">Próximo
+                        <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
+                        </i>
+                    </p>
+                </button>
+            </div>
+            <div>
+                <img src="imagens/pergunta-4.png" class="img-quest-4-respostas">
+            </div>
+        </div>
+
+
+        <div class="rodape-de-resposta">
+            <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
+                <p class="compartilhe" style="color: white;">Compartilhe:
+                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="">
+                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="tela-mito-4" class="resposta-mito-4" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+        <div class="fundo">
+            <a href="https://marjan.com.br">
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+            </a>
+        </div>
+        <div class="body-resposta-1">
+            <div class="parte-esquerda-resposta-3">
+                <h6 class="correct-answer">
+                    <i style="color: red;" class="fa fa-times"></i>
+                    RESPOSTA INCORRETA
+                </h6>
+                <div class="answer-text">
+                    <h2 class="text-tittle">
+                        <strong>VERDADE!</strong> Por ser composta pelos aminoácidos responsáveis pelo fortalecimento de unhas e cabelos,
+                    </h2>
+                    <P class="text">
+                        é natural que o colágeno contribua para que os dois cresçam de forma mais rápida e saudável. Uma rotina saudável e 
+                        uma dieta balanceada e rica em nutrientes pode intensificar tal ação.
+                    </P>
+                </div>
+        
+                <button id="proximo-to-2.5" class="faca-quiz">
+                    <p class="fazer-texto">Próximo
+                        <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
+                        </i>
+                    </p>
+                </button>
+            </div>
+            <div>
+                <img src="imagens/pergunta-4.png" class="img-quest-4-respostas">
+            </div>
+        </div>
+        <div class="rodape-de-resposta">
+            <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
+                <p class="compartilhe" style="color: white;">Compartilhe:
+                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="">
+                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------DIVISÃO DE PERGUNTAS-------------------------------------------------- -->
+
+    <div id="fifth-quest-Js" class="fifth-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+            <div class="fundo">
+                <a href="https://marjan.com.br">
+                    <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+                </a>
+            </div>
+            <div class="body-pergunta-5">
+                <div>
+                    <img src="imagens/pergunta-5.png" class="img-quest-5">
+                </div>
+                <div class="direita-pergunta-5">
+                    <div>
+                        <h3 class="contagem-5"> <strong>5</strong>/6</h3>
+                
+                        <h2 class="pergunta-5">Comer gelatina já é o suficiente para absorver uma grande quantidade de colágeno.</h2>
+                    </div>
+            
+                    <div class="resposta-mito-verdade-5">          
+                        <button id="mitoButton-5" type="button" onClick="onClick()" class="mito">
+                            <i style="color: red;" class="fa fa-times"></i>
+                            MITO
+                        </button>
+            
+                        <button id="trueButton-5" class="verdadeiro">
+                            <i style="color: green;" class="fa fa-solid fa-check"></i>
+                            VERDADE
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="rodape-de-resposta">
+                <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+                <div  class="social">
+                    <p class="compartilhe" style="color: white;">Compartilhe:
+                        <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                            <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="">
+                            <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+    </div>
+
+    <div id="tela-verdadeiro-5" class="resposta-verdadeiro-5" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+        <div class="fundo">
+            <a href="https://marjan.com.br">
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+            </a>
+        </div>
+        <div class="body-resposta-1">
+            <div class="parte-esquerda-resposta-3">
+                <h6 class="correct-answer">
+                    <i style="color: red;" class="fa fa-times"></i>
+                    RESPOSTA INCORRETA
+                </h6>
+                <div class="answer-text">
+                    <h2 class="text-tittle">
+                        <strong>MITO! </strong> Apesar de ser uma associação muito comum, a gelatina não é um alimento rico em colágeno.
+                    </h2>
+                    <P class="text">
+                        Aliás, costuma ser uma das fontes mais pobres da substância, repleta de açúcares e corantes artificiais. 
+                        Algumas gelatinas mais puras, que não têm conservantes, nem aditivos artificiais, podem contribuir com a redução 
+                        da retenção de líquido no seu corpo, mas não têm relação com o colágeno.
+                    </P>
+                </div>
+        
+                <button id="proximo-to-6" class="faca-quiz">
+                    <p class="fazer-texto">Próximo
+                        <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
+                        </i>
+                    </p>
+                </button>
+            </div>
+            <div>
+                <img src="imagens/pergunta-5.png" class="img-quest-5">
+            </div>
+        </div>
+
+
+        <div class="rodape-de-resposta">
+            <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
+                <p class="compartilhe" style="color: white;">Compartilhe:
+                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="">
+                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="tela-mito-5" class="resposta-mito-5" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+        <div class="fundo">
+            <a href="https://marjan.com.br">
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+            </a>
+        </div>
+        <div class="body-resposta-1">
+            <div class="parte-esquerda-resposta-3">
+                <h6 class="correct-answer">
+                    <i style="color: green;" class="fa fa-solid fa-check"></i>
+                    RESPOSTA CORRETA! 
+                </h6>
+                <div class="answer-text">
+                    <h2 class="text-tittle">
+                        <strong>MITO! </strong> Apesar de ser uma associação muito comum, a gelatina não é um alimento rico em colágeno.
+                    </h2>
+                    <P class="text">
+                        Aliás, costuma ser uma das fontes mais pobres da substância, repleta de açúcares e corantes artificiais. 
+                        Algumas gelatinas mais puras, que não têm conservantes, nem aditivos artificiais, podem contribuir com a redução 
+                        da retenção de líquido no seu corpo, mas não têm relação com o colágeno.
+                    </P>
+                </div>
+        
+                <button id="proximo-to-2.6" class="faca-quiz">
+                    <p class="fazer-texto">Próximo
+                        <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
+                        </i>
+                    </p>
+                </button>
+            </div>
+            <div>
+                <img src="imagens/pergunta-5.png" class="img-quest-5">
+            </div>
+        </div>
+        <div class="rodape-de-resposta">
+            <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
+                <p class="compartilhe" style="color: white;">Compartilhe:
+                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="">
+                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------DIVISÃO DE PERGUNTAS-------------------------------------------------- -->
+
+    <div id="sixth-quest-Js" class="sixth-quest" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+            <div class="fundo">
+                <a href="https://marjan.com.br">
+                    <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+                </a>
+            </div>
+            <div class="body-pergunta-6">
+                <div>
+                    <img src="imagens/pergunta-6.png" class="img-quest-6">
+                </div>
+                <div class="direita-pergunta-6">
+                    <div>
+                        <h3 class="contagem-6"> <strong>6</strong>/6</h3>
+                
+                        <h2 class="pergunta-6">O nosso corpo produz colágeno.</h2>
+                    </div>
+            
+                    <div class="resposta-mito-verdade-6">          
+                        <button id="mitoButton-6" class="mito">
+                            <i style="color: red;" class="fa fa-times"></i>
+                            MITO
+                        </button>
+            
+                        <button id="trueButton-6" type="button" onClick="onClick()"  class="verdadeiro">
+                            <i style="color: green;" class="fa fa-solid fa-check"></i>
+                            VERDADE
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="rodape-de-resposta">
+                <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+                <div  class="social">
+                    <p class="compartilhe" style="color: white;">Compartilhe:
+                        <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                            <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                        </a>
+        
+                        <a style="color: aliceblue;" href="">
+                            <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+    </div>
+
+    <div id="tela-verdadeiro-6" class="resposta-verdadeiro-6" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+        <div class="fundo">
+            <a href="https://marjan.com.br">
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+            </a>
+        </div>
+        <div class="body-resposta-1">
+            <div class="parte-esquerda-resposta-3">
+                <h6 class="correct-answer">
+                    <i style="color: green;" class="fa fa-solid fa-check"></i>
+                    RESPOSTA CORRETA! 
+                </h6>
+
+                <div class="answer-text">
+                    <h2 class="text-tittle">
+                        <strong>VERDADE! </strong> Como já dito anteriormente, o colágeno é o principal componente do estrutural do tecido cartilaginoso.
+        
+                    </h2>
+                    <P class="text">
+                        O chamado “Colágeno endógeno” é aquele produzido pelo próprio corpo e que atual em diversas funções do nosso organismo.
+                    </P>
+                </div>
+                <button id="proximo-to-finishTrue" class="faca-quiz">
+                    <p class="fazer-texto">Ver meu resultado
+                        <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
+                        </i>
+                    </p>
+                </button>
+            </div>
+            <div>
+                <img src="imagens/pergunta-6.png" class="img-quest-6-respostas">
+            </div>
+        </div>
+        <div class="rodape-de-resposta">
+            <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
+                <p class="compartilhe" style="color: white;">Compartilhe:
+                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="">
+                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="tela-mito-6" class="resposta-mito-6" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="900">
+        <div class="fundo">
+            <a href="https://marjan.com.br">
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+            </a>
+        </div>
+        <div class="body-resposta-1">
+            <div class="parte-esquerda-resposta-3">
+                <h6 class="correct-answer">
+                    <i style="color: red;" class="fa fa-times"></i>
+                    RESPOSTA INCORRETA
+                </h6>
+                <div class="answer-text">
+                    <h2 class="text-tittle">
+                        <strong>VERDADE! </strong> Como já dito anteriormente, o colágeno é o principal componente do estrutural do tecido cartilaginoso.
+        
+                    </h2>
+                    <P class="text">
+                        O chamado “Colágeno endógeno” é aquele produzido pelo próprio corpo e que atual em diversas funções do nosso organismo.
+                    </P>
+                </div>
+                <button id="proximo-to-FinishFalse" class="faca-quiz">
+                    <p class="fazer-texto">Ver meu resultado
+                        <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-right">
+                        </i>
+                    </p>
+                </button>
+            </div>
+            <div>
+                <img src="imagens/pergunta-6.png" class="img-quest-6-respostas">
+            </div>
+        </div>
+        <div class="rodape-de-resposta">
+            <p  class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
+                <p class="compartilhe" style="color: white;">Compartilhe:
+                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="">
+                        <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------DIVISÃO DE PERGUNTAS-------------------------------------------------- -->
+
+    <div id="TelaFinal" class="finalizacao">
+        <div class="fundo">
+            <a href="https://marjan.com.br">
+                <button class="logo-button"><img class="imagem-logo" src="imagens/logo.png" ></button>
+            </a>
+        </div>
+        <div class="body-finalizacao">
+            <div class="esquerda-finalizacao">
+                <div class="acertos">
+                    <h1 class="acerto">
+                        Você acertou <strong> <a id="clicks">0</a></strong> de 6 !
+                    </h1>
+                </div>
+                <div class="acertos-texto">
+                    <h6 class="texto-acerto">
+                        Conheça mais sobre a <strong>Colaten</strong> e receba informações sobre colágeno preenchendo o formulário abaixo.
+                    </h6>
+                </div>
+                <div class="proximoESociais">
+                    <div>
+                        <a href="">
+                            <button class="refazer">
+                                <i style="margin-left:2px; margin-top:5px" class=" fa far-solid fa-chevron-left"></i>
+                                Refazer quiz
+                            </button>
+                        </a>
+                    </div>
+                    <div style="margin-top: 15px;" class="social-final">
+                        <a style="color: rgb(0, 0, 0);" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                        </a>
+        
+                        <a style="color: rgb(0, 0, 0);" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                            <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                        </a>
+        
+                        <a style="color: rgb(0, 0, 0);" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                            <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                        </a>
+        
+                        <a style="color: rgb(0, 0, 0);" href="">
+                            <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
+                        </a>
+                    </p>
+                </div>
+                </div>
+                   
+                
+                <form class="preencher">
+                    <div class="titulo-preencher">
+                        <h6 class="titulo-preencher-box">
+                            Newsletter:
+                        </h6>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" class="input-nome" placeholder="Nome">
+                        <input type="text" class="input-email" placeholder="E-mail">
+                    </div>
+                    
+                        <a href="#">
+                            <button class="botao-envia-dados">
+                                Enviar
+                            </button>
+                        </a>
+                    
+                </form>
+            </div>
+            <div>
+                <img class="final-image" src="imagens/final.png">
+            </div>
+        </div>
+        <div class="rodape-de-resposta">
+            <p class="direitos">© 2023 <strong>Marjan Farma</strong>. Todos os direitos reservados.</p>
+            <div  class="social">
+                <p class="compartilhe" style="color: white;">Compartilhe:
+                    <a style="color: aliceblue;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&t=">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-facebook fa-1x "></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades&text=Descubra%20quais%20são%20os%206%20mitos%20e%20verdades%20sobre%20o%20colágeno.%0A%0AQuer%20tirar%20todas%20as%20suas%20dúvidas%20sobre%20a%20importância%20do%20colágeno%20para%20o%20nosso%20organismo%3F%20Descubra%20aqui!%0A%0Ahttps%3A%2F%2Finterativos.colaten.com.br%2Fcolageno-mitos-e-verdades">
+                        <i style="margin-left: 20px;" class=" fa fa-brands fa-twitter fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3Dhttps%253A%252F%252Finterativos.colaten.com.br%252Fcolageno-mitos-e-verdades%26title%3D%26summary%3D%26source%3D">
+                        <i style="margin-left: 20px;" class="fa fa-brands fa-linkedin fa-1x"></i>
+                    </a>
+    
+                    <a style="color: aliceblue;" href="">
                         <i style="margin-left: 20px;" class="fa fa-solid fa-envelope fa-1x"></i>
                     </a>
                 </p>
@@ -1051,6 +1153,12 @@
     </div>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/802204386a.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="JS/principal.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+        integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <script>
     AOS.init();
   </script>

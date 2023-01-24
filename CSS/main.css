@@ -1,311 +1,20 @@
-@media only screen and (max-width: 421px),(max-height: 321px){
+@media only screen and (min-width: 200px){
 
-
-body{
-    background-color: #ffffff;
-    height: 100%;
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-}
-.fundo{
-    background-color: #ffffff;
-}
-.logo-button{
-    margin-top: 6%;
-    margin-left: 4%;
-    height: 70px;
-    width: 120px;
-    border: none;
-    background-color: rgb(255, 255, 255);
-}
-.imagem-logo{
-    margin-left: 0px;
-    width: 130px; 
-    height:70px;
-}
-.initial-image{
-    margin-left: 21.5%;
-    margin-top: 5%;
-    height: 200px;
-    width: 200px;
-}
-.mito-verdade{
-    display: flex;
-
-}
-.seis{
-    font-size: 70px;
-    font-weight: 800;
-    margin-left: 10%;
-    color: #009dbf;
-}
-.strong-tittle{
-    margin-right: 20%;
-    font-size: 20px;
-    margin-left: 1.5%;
-    margin-top: 5%;
-}
-.texto-1{
-    font-size: 13px;
-    text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.faca-quiz{
-    height: 30px;
-    margin-left: 10%;
-    background-color: #009dbf;
-    border: none;
-    text-align: center;
-
-    /* borda do botão :  */
-    border-radius: 4px;
-}
-.fazer-texto{
-    color: white;
-    margin-top:1px;
-    font-size: 12px;
-    font-weight: 400;
-}
-.rodape{
-    margin-top: 10%;
-    width: 100%;
-    height: 75px;
-    background-color: black;
-}
-.direitos{
-    padding-left: 15%;
-    padding-top: 2%;
-    font-size: 10px;
-    color: white;
-}
-.social{
-    display: flex;
-}
-.compartilhe{
-
-    padding-left: 15%;
-    font-size: 13px;
-}
-
-/* ---------------------  PERGUNTAS E RESPOSTAS ----------------------------------  */
-.fisrt-quest{
-    display: block;
-}
-.resposta-verdadeiro{
-    display: none;
-}
-.resposta-mito{
-    display: none;
-}
-.second-quest{
-    display: none;
-}
-.resposta-verdadeiro-2{
-    display: none;
-}
-.resposta-mito-2{
-    display: none;
-}
-.third-quest{
-    display: none;
-}
-.resposta-verdadeiro-3{
-    display: none;
-}
-.resposta-mito-3{
-    display: none;
-}
-.fourth-quest{
-    display: none;
-}
-.resposta-verdadeiro-4{
-    display: none;
-}
-.resposta-mito-4{
-    display: none;
-}
-.fifth-quest{
-    display: none;
-}
-.resposta-verdadeiro-5{
-    display: none;
-}
-.resposta-mito-5{
-    display: none;
-}
-.sixth-quest{
-    display: none;
-}
-.resposta-verdadeiro-6{
-    display: none;
-}
-.resposta-mito-6{
-    display: none;
-}
-.finalizacao{
-    display: none;
-}
-
-
-
-
-.img-quest-1{
-    margin-right: 30px;
-    margin-left: 60px;
-    width: 70%; 
-    height:5%;
-}
-.contagem{
-    color: #05738d;
-    margin-left: 30px;
-    font-size: 13px;
-}
-.pergunta-1{
-    margin-top: 10px;
-    margin-left: 30px;
-    font-size: 25px;
-}
-.resposta-mito-verdade{
-    margin-top: 40px;
-    display: flex;
-}
-.verdadeiro{
-    background-color: #ffffff00;
-    width: 130px;
-    height: 50px;
-    margin-left: 30px;
+    /* ---------------------  PÁGINA INICIAL DO QUIZ ----------------------------------  */
     
-    /* borda do botão: */
-    border-radius: 5px;
-}
-.mito{
-    background-color: #ffffff00;
-    width: 130px;
-    height: 50px;
-    margin-left: 10px;
-    
-    /* borda do botão  */
-    border-radius: 5px;
-
-}
-.correct-answer{
-    margin-top: 4%;
-    margin-left: 6%;
-}
-.text-tittle{
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 10%;
-    font-size: 15px;
-}
-.text{
-    margin-top: 15px;
-    font-weight: 100;
-    margin-right: 5%;
-    margin-left: 5%; 
-    text-align: left;
-}
-.finalizacao{
-    height: 100%;
-    width: 100%;
-}
-.final-image{
-    margin-left: 4.5%;
-    margin-top: 5%;
-    height: 200px;
-    width: 300px;
-
-}
-.acertos{
-
-}
-.acerto{
-    margin-left: 6%;
-    font-size: 30px;
-}
-.texto-acerto{
-    text-align: center;
-    margin-top: 25px;
-    font-weight: 100;
-    margin-left: 6%;
-    margin-right: 6%;
-}
-.refazer{
-    margin-top: 25px;
-    background-color: #ffffff;
-    height: 30px;
-    width: 150px;
-    margin-left: 26%;
-
-    /* borda do botão  */
-    border-color: #009dbf;
-    border-radius: 7px;
-}
-.refazer-quiz{
-    color: #009dbf;
-}
-.social-final{
-    padding-top: 15px;
-    margin-left: 22%;
-}
-.preencher{
-    margin-left: 10%;
-    margin-right: 10%;
-    
-    height: 220px;
-    background-color: #009dbf;
-
-    /* borda da div */
-    border-radius: 10px;
-
-}
-.titulo-preencher-box{
-    margin-left: 6%;
-    color: #ffffff;
-    padding-top: 20px;
-    font-size: 0.8em;
-    font-weight: 400;
-}
-.input-nome{
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 6%;
-    width: 85%;
-}
-.input-email{
-    height: 40px;
-    margin-top: 20px;
-    margin-left: 6%;
-    width: 85%;
-}
-.botao-envia-dados{
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 20px;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: #ffffff;
-    background-color: #009cbf00;
-}
-.enviar-info-texto{
-    text-align: center;
-    color: white;
-}
-}
-
-@media only screen and (min-width:1455px),(min-height:636px){
     body{
-        background-color: #ffffff;
+        background-color: #f5f4ef;
         height: 100%;
         width: 100%;
         padding: 0%;
         margin: 0%;
     }
+    .fundo{
+        background-color: #f5f4ef;
+    }
     .logo-button{
-        margin-top: 2%;
-        margin-left: 9%;
+        margin-top: 6%;
+        margin-left: 4%;
         height: 70px;
         width: 120px;
         border: none;
@@ -313,182 +22,315 @@ body{
     }
     .imagem-logo{
         margin-left: 0px;
-        width: 230px; 
-        height:100px;
-    }
-    .div-1{
-        width: 50%;
-        margin-left: 50px;
-    }
-    .div-2{
-        width: 50%;
-    }
-    .mito-verdade-texto{
-        margin-top: 3%;
-        width: 100%;
-        display: flex;
+        width: 100%; 
+        height:auto;
     }
     .initial-image{
-        margin-left: 20%;
+        margin-left: 21.5%;
         margin-top: 5%;
-        height: 80%;
-        width: 80%;
+        height: auto;
+        width: 50%;
     }
     .mito-verdade{
         display: flex;
     
     }
     .seis{
-        margin-top: 60px;
-        font-size: 120px;
+        font-size: 70px;
         font-weight: 800;
         margin-left: 10%;
         color: #009dbf;
     }
     .strong-tittle{
-        margin-right: 0%;
-        font-size: 40px;
+        margin-right: 20%;
+        font-size: 20px;
         margin-left: 1.5%;
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .texto-1{
-        font-size: 25px;
+        font-size: 13px;
         text-align: left;
         margin-left: 10%;
         margin-right: 10%;
     }
-    .faca-quiz{
-        width: 150px;
-        height: 40px;
-        margin-left: 10%;
+    .faca-quiz-inicial{
+        color: white;
+        height: 30px;
+        margin-left: 5%;
         background-color: #009dbf;
         border: none;
         text-align: center;
     
         /* borda do botão :  */
-        border-radius: 8px;
+        border-radius: 4px;
+    }
+    .faca-quiz{
+        height: 30px;
+        margin-left: 5%;
+        background-color: #009dbf;
+        border: none;
+        text-align: center;
+    
+        /* borda do botão :  */
+        border-radius: 4px;
     }
     .fazer-texto{
         color: white;
-        margin-top:7px;
-        font-size: 17px;
+        margin-top:1px;
+        font-size: 12px;
         font-weight: 400;
     }
-    .rodape{
-        display: flex;
-        margin-top: 3%;
+    .rodape-do-inicio{
+        margin-top: 10%;
         width: 100%;
-        height: 80px;
+        height: 100px;
         background-color: black;
-    }
-    .direitos{
-        width: 80%;
-        padding-left: 5%;
-        padding-top: 0%;
-        font-size: 15px;
-        color: white;
-    }
-    .social{
-        width: 100%;
         display: flex;
     }
-    .compartilhe{
-        margin-top: 15px;
-        width: 100%;
-        margin-right: 5%;
-        margin-left: 55%;
-        font-size: 15px;
-    }
-
-
-    /* --------------------perguntas e respostas------------- */
+    /* --------------------- FIM DA PÁGINA INICIAL DO QUIZ ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 ----------------------------------  */
     .fisrt-quest{
+        background-color: #f5f4ef;
         display: block;
     }
     .resposta-verdadeiro{
+        background-color: #f5f4ef;
         display: none;
     }
     .resposta-mito{
+        background-color: #f5f4ef;
         display: none;
     }
-    .second-quest{
-        display: none;
-    }
-    .resposta-verdadeiro-2{
-        display: none;
-    }
-    .resposta-mito-2{
-        display: none;
-    }
-    .third-quest{
-        display: none;
-    }
-    .resposta-verdadeiro-3{
-        display: none;
-    }
-    .resposta-mito-3{
-        display: none;
-    }
-    .fourth-quest{
-        display: none;
-    }
-    .resposta-verdadeiro-4{
-        display: none;
-    }
-    .resposta-mito-4{
-        display: none;
-    }
-    .fifth-quest{
-        display: none;
-    }
-    .resposta-verdadeiro-5{
-        display: none;
-    }
-    .resposta-mito-5{
-        display: none;
-    }
-    .sixth-quest{
-        display: none;
-    }
-    .resposta-verdadeiro-6{
-        display: none;
-    }
-    .resposta-mito-6{
-        display: none;
-    }
-    .finalizacao{
-        display: none;
-    }
-    
     .img-quest-1{
-        margin-top: -200px;
-        margin-left: 7%;
-        height: 500px;
+        margin-right: 30px;
+        margin-left: 60px;
+        width: 70%; 
+        height:auto;
     }
-    .pergunta-toda{
-        margin-left: 10%;
-        margin-right: 40%;
-        display: flex;
+    .img-quest-1-resposta{
+        width: 100%;
     }
-    .contagem{
-        margin-top: 100px;
+    .contagem-1{
         color: #05738d;
-        margin-left: 0px;
+        margin-left: -160px;
         font-size: 20px;
     }
+    .pergunta-1{
+        margin-top: 10px;
+        margin-left: -160px;
+        font-size: 35px;
+    }
     .resposta-mito-verdade{
-        margin-left: -10px;
+        margin-left: -205px;
         margin-top: 40px;
         display: flex;
     }
-    .mito{
-        background-color: #ffffff00;
-        width: 130px;
-        height: 50px;
-        margin-left: 10px;
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 FIM ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
+    .second-quest{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-verdadeiro-2{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito-2{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .img-quest-2{
+        padding-top: 0%;
+        margin-right: 30px;
+        margin-left: 25px;
+        width: 80%; 
+        height:auto;
+    }
+    .img-quest-2-respostas{
+        width: 80%;
+    }
+    .contagem-2{
+        color: #05738d;
+        padding-left: 13px;
+        font-size: 13px;
         
-        /* borda do botão  */
-        border-radius: 5px;
+    }
+    .pergunta-2{
+        margin-top: 0px;
+        margin-left: 13px;
+        font-size: 25px;
+    }
+    .resposta-mito-verdade-2{
+        margin-left: -5px;
+        margin-top: 0px;
+        display: flex;
+    }
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
+    .third-quest{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-verdadeiro-3{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito-3{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .img-quest-3{
+        margin-right: 30px;
+        margin-left: 70px;
+        width: 60%; 
+        height:auto;
+    }
+    .img-quest-3-respostas{
+        width: 60%;
+    }
+    .contagem-3{
+        color: #05738d;
+        padding-left: 13px;
+        font-size: 20px;
+    }
+    .pergunta-3{
+        margin-top: 0px;
+        margin-left: 13px;
+        font-size: 25px;
+    }
+    .resposta-mito-verdade-3{
+        margin-left: -5px;
+        margin-top: 80px;
+        display: flex;
+    }
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 4 ----------------------------------  */
+    .fourth-quest{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-verdadeiro-4{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito-4{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .img-quest-4{
+        margin-right: 30px;
+        margin-left: 70px;
+        width: 60%; 
+        height:auto;
+    }
+    .img-quest-4-respostas{
+        width: 60%;
+    }
+    .contagem-4{
+        color: #05738d;
+        padding-left: 13px;
+        font-size: 20px;
+    }
+    .pergunta-4{
+        margin-top: 0px;
+        margin-left: 13px;
+        font-size: 25px;
+    }
+    .resposta-mito-verdade-4{
+        margin-left: -5px;
+        margin-top: 80px;
+        display: flex;
+    }
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 4 ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 5 ----------------------------------  */
+    .fifth-quest{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-verdadeiro-5{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito-5{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .img-quest-5{
+        margin-right: 30px;
+        margin-left: 70px;
+        width: 60%; 
+        height:auto;
+    }
+    .contagem-5{
+        color: #05738d;
+        padding-left: 13px;
+        font-size: 20px;
+    }
+    .pergunta-5{
+        margin-top: 0px;
+        margin-left: 13px;
+        font-size: 25px;
+    }
+    .resposta-mito-verdade-5{
+        margin-left: -5px;
+        margin-top: 80px;
+        display: flex;
+    }
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 5 ----------------------------------  */
+    
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 6 ----------------------------------  */
+    .sixth-quest{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-verdadeiro-6{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito-6{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .img-quest-6{
+        margin-right: 30px;
+        margin-left: 70px;
+        width: 60%; 
+        height:auto;
+    }
+    .img-quest-6-respostas{
+        width: 60%;
+    }
+    .contagem-6{
+        color: #05738d;
+        padding-left: 13px;
+        font-size: 20px;
+    }
+    .pergunta-6{
+        margin-top: 0px;
+        margin-left: 13px;
+        font-size: 25px;
+    }
+    .resposta-mito-verdade-6{
+        margin-left: -5px;
+        margin-top: 80px;
+        display: flex;
+    }
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 6 ----------------------------------  */
+    .finalizacao{
+        background-color: #f5f4ef;;
+        display: none;
+    }
+    .finalizacao{
+        background-color: #f5f4ef;
+        height: 100%;
+        width: 100%;
     }
     .verdadeiro{
         background-color: #ffffff00;
@@ -499,20 +341,732 @@ body{
         /* borda do botão: */
         border-radius: 5px;
     }
+    .verdadeiro:hover{
+        color: white;
+        background-color: black;
+        transition-duration: 0.6s;
+    }
+    .mito{
+        background-color: #ffffff00;
+        width: 130px;
+        height: 50px;
+        margin-left: 10px;
+        
+        /* borda do botão  */
+        border-radius: 5px;
+    
+    }
+    .mito:hover{
+        color: white;
+        background-color: black;
+        transition-duration: 0.6s;
+    }
     .correct-answer{
-        margin-top: 13%;
+        margin-top: 4%;
         margin-left: 6%;
     }
-    .answer-text{
-        /* margin-top: -30px; */
+    .text-tittle{
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    .text{
+        margin-top: 15px;
+        font-weight: 100;
+        margin-right: 5%;
+        margin-left: 5%; 
+        text-align: left;
+    }
+    .final-image{
+        margin-left: 4.5%;
+        margin-top: 5%;
+        height: 200px;
+        width: 300px;
+    
+    }
+    .acerto{
         margin-left: 6%;
+        font-size: 30px;
+    }
+    .texto-acerto{
+        text-align: center;
+        margin-top: 25px;
+        font-weight: 100;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    .refazer{
+        margin-top: 25px;
+        background-color: #ffffff;
+        height: 30px;
+        width: 150px;
+        margin-left: 26%;
+    
+        /* borda do botão  */
+        border-color: #009dbf;
+        border-radius: 7px;
+    }
+    .refazer-quiz{
+        color: #009dbf;
+    }
+    .social-final{
+        padding-top: 15px;
+        margin-left: 22%;
+    }
+    .preencher{
+        margin-left: 10%;
         margin-right: 10%;
-        display: flex;
+        
+        height: 220px;
+        background-color: #009dbf;
+    
+        /* borda da div */
+        border-radius: 10px;
+    
+    }
+    .titulo-preencher-box{
+        margin-left: 6%;
+        color: #ffffff;
+        padding-top: 20px;
+        font-size: 0.8em;
+        font-weight: 400;
+    }
+    .input-nome{
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 6%;
+        width: 85%;
+        padding-left: 5%;
+
+        /* borda do botão */
+        border: none;
+    }
+    .input-email{
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 6%;
+        width: 85%;
+        padding-left: 5%;
+
+        /* borda do botão */
+        border: none;
+    }
+    .botao-envia-dados{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+        border-color: #ffffff;
+        background-color: #009cbf00;
+    }
+    .enviar-info-texto{
+        text-align: center;
+        color: white;
     }
     .proximo-quiz{
-        margin-top: 80px;
+        margin-top: 0em;
         height: 40px;
-        margin-left: 0%;
+        margin-left: 10%;
+        background-color: #009dbf;
+        border: none;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+    
+        /* borda do botão :  */
+        border-radius: 4px;
+    }
+    .rodape-de-resposta{
+        margin-top: 29%;
+        width: 110%;
+        height: 110px;
+        background-color: black;
+        display: flex;
+        padding-left: 17%;
+    }
+    .direitos{
+        margin-right: -159px;
+        margin-left: 15%;
+        padding-top: 3%;
+        font-size: 9px;
+        color: white;
+    }
+    .compartilhe{
+        margin-top: 25%;
+        margin-left: -25%;
+        font-size: 13px;
+    }
+    }
+@media only screen and (min-width: 600px){
+
+        /* ---------------------  PÁGINA INICIAL DO QUIZ ----------------------------------  */
+        
+        body{
+            background-color: #f5f4ef;
+            height: 100%;
+            width: 100%;
+            padding: 0%;
+            margin: 0%;
+        }
+        .fundo{
+            background-color: #f5f4ef;
+        }
+        .logo-button{
+            margin-top: 6%;
+            margin-left: 4%;
+            height: 70px;
+            width: 120px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+        }
+        .imagem-logo{
+            margin-left: 0px;
+            width: 100%; 
+            height:auto;
+        }
+        .initial-image{
+            margin-left: 21.5%;
+            margin-top: 5%;
+            height: auto;
+            width: 50%;
+        }
+        .mito-verdade{
+            display: flex;
+        
+        }
+        .seis{
+            font-size: 70px;
+            font-weight: 800;
+            margin-left: 10%;
+            color: #009dbf;
+        }
+        .strong-tittle{
+            margin-right: 20%;
+            font-size: 20px;
+            margin-left: 1.5%;
+            margin-top: 5%;
+        }
+        .texto-1{
+            font-size: 13px;
+            text-align: left;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .faca-quiz-inicial{
+            color: white;
+            height: 30px;
+            margin-left: 10%;
+            background-color: #009dbf;
+            border: none;
+            text-align: center;
+        
+            /* borda do botão :  */
+            border-radius: 4px;
+        }
+        .faca-quiz{
+            height: 30px;
+            margin-left: 5%;
+            background-color: #009dbf;
+            border: none;
+            text-align: center;
+        
+            /* borda do botão :  */
+            border-radius: 4px;
+        }
+        .fazer-texto{
+            color: white;
+            margin-top:1px;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .rodape-do-inicio{
+            margin-top: 10%;
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            display: flex;
+        }
+        /* --------------------- FIM DA PÁGINA INICIAL DO QUIZ ----------------------------------  */
+        
+        /* ---------------------  PERGUNTAS E RESPOSTAS ----------------------------------  */
+        
+        /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 ----------------------------------  */
+        .fisrt-quest{
+            background-color: #f5f4ef;
+            display: block;
+        }
+        .resposta-verdadeiro{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-mito{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .img-quest-1{
+            margin-right: 30px;
+            margin-left: 60px;
+            width: 70%; 
+            height:auto;
+        }
+        .img-quest-1-resposta{
+            width: 100%;
+        }
+        .contagem-1{
+            color: #05738d;
+            margin-left: -160px;
+            font-size: 20px;
+        }
+        .pergunta-1{
+            margin-top: 10px;
+            margin-left: -160px;
+            font-size: 35px;
+        }
+        .resposta-mito-verdade{
+            margin-left: -205px;
+            margin-top: 40px;
+            display: flex;
+        }
+        /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 FIM ----------------------------------  */
+        
+        /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
+        .second-quest{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-verdadeiro-2{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-mito-2{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .img-quest-2{
+            padding-top: 0%;
+            margin-right: 30px;
+            margin-left: 25px;
+            width: 80%; 
+            height:auto;
+        }
+        .img-quest-2-respostas{
+            width: 80%;
+        }
+        .contagem-2{
+            color: #05738d;
+            padding-left: 13px;
+            font-size: 13px;
+            
+        }
+        .pergunta-2{
+            margin-top: 0px;
+            margin-left: 13px;
+            font-size: 25px;
+        }
+        .resposta-mito-verdade-2{
+            margin-left: -5px;
+            margin-top: 0px;
+            display: flex;
+        }
+        /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
+        
+        /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
+        .third-quest{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-verdadeiro-3{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-mito-3{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .img-quest-3{
+            margin-right: 30px;
+            margin-left: 70px;
+            width: 60%; 
+            height:auto;
+        }
+        .img-quest-3-respostas{
+            width: 60%;
+        }
+        .contagem-3{
+            color: #05738d;
+            padding-left: 13px;
+            font-size: 20px;
+        }
+        .pergunta-3{
+            margin-top: 0px;
+            margin-left: 13px;
+            font-size: 25px;
+        }
+        .resposta-mito-verdade-3{
+            margin-left: -5px;
+            margin-top: 80px;
+            display: flex;
+        }
+        /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
+        
+        /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 4 ----------------------------------  */
+        .fourth-quest{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-verdadeiro-4{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-mito-4{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .img-quest-4{
+            margin-right: 30px;
+            margin-left: 70px;
+            width: 60%; 
+            height:auto;
+        }
+        .img-quest-4-respostas{
+            width: 60%;
+        }
+        .contagem-4{
+            color: #05738d;
+            padding-left: 13px;
+            font-size: 20px;
+        }
+        .pergunta-4{
+            margin-top: 0px;
+            margin-left: 13px;
+            font-size: 25px;
+        }
+        .resposta-mito-verdade-4{
+            margin-left: -5px;
+            margin-top: 80px;
+            display: flex;
+        }
+        /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 4 ----------------------------------  */
+        
+        /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 5 ----------------------------------  */
+        .fifth-quest{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-verdadeiro-5{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-mito-5{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .img-quest-5{
+            margin-right: 30px;
+            margin-left: 70px;
+            width: 60%; 
+            height:auto;
+        }
+        .contagem-5{
+            color: #05738d;
+            padding-left: 13px;
+            font-size: 20px;
+        }
+        .pergunta-5{
+            margin-top: 0px;
+            margin-left: 13px;
+            font-size: 25px;
+        }
+        .resposta-mito-verdade-5{
+            margin-left: -5px;
+            margin-top: 80px;
+            display: flex;
+        }
+        /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 5 ----------------------------------  */
+        
+        /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 6 ----------------------------------  */
+        .sixth-quest{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-verdadeiro-6{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .resposta-mito-6{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .img-quest-6{
+            margin-right: 30px;
+            margin-left: 70px;
+            width: 60%; 
+            height:auto;
+        }
+        .img-quest-6-respostas{
+            width: 60%;
+        }
+        .contagem-6{
+            color: #05738d;
+            padding-left: 13px;
+            font-size: 20px;
+        }
+        .pergunta-6{
+            margin-top: 0px;
+            margin-left: 13px;
+            font-size: 25px;
+        }
+        .resposta-mito-verdade-6{
+            margin-left: -5px;
+            margin-top: 80px;
+            display: flex;
+        }
+        /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 6 ----------------------------------  */
+        .finalizacao{
+            background-color: #f5f4ef;
+            display: none;
+        }
+        .finalizacao{
+            background-color: #f5f4ef;
+            height: 100%;
+            width: 100%;
+        }
+        .verdadeiro{
+            background-color: #ffffff00;
+            width: 130px;
+            height: 50px;
+            margin-left: 30px;
+            
+            /* borda do botão: */
+            border-radius: 5px;
+        }
+        .verdadeiro:hover{
+            color: white;
+            background-color: black;
+            transition-duration: 0.6s;
+        }
+        .mito{
+            background-color: #ffffff00;
+            width: 130px;
+            height: 50px;
+            margin-left: 10px;
+            border: block;
+            
+            /* borda do botão  */
+            border-radius: 5px;
+        
+        }
+        .mito:hover{
+            color: white;
+            background-color: black;
+            transition-duration: 0.6s;
+        }
+        .correct-answer{
+            margin-top: 4%;
+            margin-left: 6%;
+        }
+        .text-tittle{
+            margin-right: 5%;
+            margin-left: 5%;
+            margin-top: 10%;
+            font-size: 25px;
+        }
+        .text{
+            margin-top: 15px;
+            font-weight: 100;
+            margin-right: 5%;
+            margin-left: 5%; 
+            text-align: left;
+        }
+        .final-image{
+            margin-left: 19.5%;
+            margin-top: 5%;
+            height: auto;
+            width: 60%;
+        
+        }
+        .acerto{
+            margin-left: 32%;
+            font-size: 30px;
+        }
+        .texto-acerto{
+            text-align: left;
+            margin-top: 25px;
+            font-weight: 100;
+            margin-left: 6%;
+            margin-right: 6%;
+            padding-left: 160px;
+            padding-right: 160px;
+        }
+        .refazer{
+            margin-top: 25px;
+            background-color: #ffffff;
+            height: 30px;
+            width: 150px;
+            margin-left: 41%;
+        
+            /* borda do botão  */
+            border-color: #009dbf;
+            border-radius: 7px;
+        }
+        .refazer-quiz{
+            color: #009dbf;
+        }
+        .social-final{
+            padding-top: 15px;
+            margin-left: 39%;
+        }
+        .preencher{
+            margin-left: 10%;
+            margin-right: 10%;
+            
+            height: 220px;
+            background-color: #009dbf;
+        
+            /* borda da div */
+            border-radius: 10px;
+        
+        }
+        .titulo-preencher-box{
+            margin-left: 6%;
+            color: #ffffff;
+            padding-top: 20px;
+            font-size: 0.8em;
+            font-weight: 400;
+        }
+        .input-nome{
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 6%;
+            width: 85%;
+            padding-left: 5%;
+            /* borda do botão */
+            border: none;
+        }
+        .input-email{
+            height: 40px;
+            margin-top: 20px;
+            margin-left: 6%;
+            width: 85%;
+            padding-left: 5%;
+    
+            /* borda do botão */
+            border: none;
+        }
+        .botao-envia-dados{
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 20px;
+            border-color: #ffffff;
+            background-color: #009cbf00;
+        }
+        .enviar-info-texto{
+            text-align: center;
+            color: white;
+        }
+        .proximo-quiz{
+            margin-top: 0em;
+            height: 40px;
+            margin-left: 10%;
+            background-color: #009dbf;
+            border: none;
+            text-align: center;
+            font-weight: 600;
+            color: white;
+        
+            /* borda do botão :  */
+            border-radius: 4px;
+        }
+        .rodape-de-resposta{
+            margin-top: 29%;
+            width: 110%;
+            height: 110px;
+            background-color: black;
+            display: flex;
+        }
+        .direitos{
+            margin-left: 20%;
+            padding-top: 3%;
+            font-size: 9px;
+            color: white;
+        }
+        .compartilhe{
+            margin-top: 20%;
+            margin-left: -23%;
+            font-size: 13px;
+        }
+        .body-finalizacao{
+            margin-top: 10%;
+        }
+    }
+@media only screen and (min-width:1100px){
+       /* ---------------------  PÁGINA INICIAL DO QUIZ ----------------------------------  */
+    
+    .body-pagina{
+        background-color: #f5f4ef;
+        height: 100%;
+        width: 100%;
+
+        margin: 0%;
+    }
+    .fundo{
+        margin-left: 2.1%;
+        background-color: #f5f4ef;
+    }
+    .logo-button{
+        margin-top: 5%;
+        margin-left: 4%;
+        height: 70px;
+        width: 120px;
+        border: none;
+        background-color: #f5f4ef;
+    }
+    .imagem-logo{
+        margin-top: -2em;
+        margin-left: 2em;
+        width: 190%;
+        height: auto;
+    }
+    .initial-image{
+        margin-left: -40px;
+        margin-top: 5%;
+        height: auto;
+        width: 90%;
+    }
+    .mito-verdade{
+        display: flex;
+    
+    }
+    .seis{
+        margin-top: 3%;
+        font-size: 120px;
+        font-weight: 800;
+        margin-left: 10%;
+        color: #009dbf;
+    }
+    .strong-tittle{
+        margin-right: 20%;
+        font-size: 40px;
+        margin-left: 1.5%;
+        margin-top: 5%;
+    }
+    .mito-verdade-texto{
+        margin-top: 10%;
+        background-color: #f5f4ef;
+        display: flex;
+    }
+    .texto-1{
+        font-size: 23px;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+    .faca-quiz-inicial{
+        width: 150px;
+        height: 40px;
+        margin-top: 3%;
+        margin-left: 10%;
         background-color: #009dbf;
         border: none;
         text-align: center;
@@ -520,4 +1074,542 @@ body{
         /* borda do botão :  */
         border-radius: 4px;
     }
-}
+    .faca-quiz{
+        height: 30px;
+        margin-top: 2em;
+        margin-left: 5%;
+        background-color: #009dbf;
+        border: none;
+        text-align: center;
+    
+        /* borda do botão :  */
+        border-radius: 4px;
+    }
+    .fazer-texto-initial{
+        color: white;
+        margin-top:7px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .rodape-do-inicio{
+        margin-top: 10%;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        display: flex;
+    }
+    /* --------------------- FIM DA PÁGINA INICIAL DO QUIZ ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 ----------------------------------  */
+    .fisrt-quest{
+        background-color: #f5f4ef;
+        display: block;
+    }
+    .resposta-verdadeiro{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .pergunta-toda{
+        margin-top: 10%;
+        display: flex;
+    }
+    .parte-direita-pergunta1{
+        margin-top: 10%;
+        margin-left: 15%;
+        padding-right: 5%;
+    }
+    .img-quest-1{
+        margin-right: 30px;
+        margin-left: 60px;
+        width: 80%; 
+        height:auto;
+    }
+    .img-quest-1-resposta{
+        margin-top: 40px;
+        margin-left: -100px;
+        width: 110%; 
+        height:auto;
+    }
+    .contagem-1{
+        color: #05738d;
+        margin-left: -160px;
+        font-size: 30px;
+    }
+    .pergunta-1{
+        margin-top: 10px;
+        /* margin-left: -160px; */
+        font-size: 35px;
+    }
+    .resposta-mito-verdade{
+        margin-left: -175px;
+        margin-top: 40px;
+        display: flex;
+    }
+    .body-resposta-1{
+        display: flex;
+    }
+    /* .parte-esquerda-resposta-1{
+        margin-right: 20%;
+        font-size: 25px;
+    } */
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 FIM ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
+    .second-quest{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-verdadeiro-2{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito-2{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .parte-direita-pergunta2{
+        width: 50%;
+        margin-top: 17%;
+        margin-left: -30%;
+        /* padding-right: 5%; */
+    }
+    .img-quest-2{
+        margin-right: 30px;
+        margin-left: 60px;
+        width: 50%; 
+        height:auto;
+    }
+    .img-quest-2-respostas{
+        margin-right: 30px;
+        margin-left: 60px;
+        width: 80%; 
+        height:auto;
+    }
+    .answer-text-2{
+        /* padding-left: 10%; */
+    }
+    .contagem-2{
+        color: #05738d;
+        font-size: 30px;
+    }
+    .pergunta-2{
+        margin-top: 10px;
+        /* margin-left: -160px; */
+        font-size: 35px;
+    }
+    .resposta-mito-verdade-2{
+        margin-left: -5px;
+        margin-top: 20px;
+        display: flex;
+    }
+    parte-esquerda-resposta-2{
+        margin-top: -30px;
+    }
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
+    .third-quest{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-verdadeiro-3{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito-3{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .body-pergunta-3{
+        display: flex;
+    }
+    .img-quest-3{
+        margin-right: 30px;
+        margin-left: 60px;
+        width: 50%; 
+        height:auto;
+    }
+    .img-quest-3-respostas{
+        margin-top: 20px;
+        margin-right: 30px;
+        margin-left: 0px;
+        width: 90%; 
+        height:auto;
+    }
+    .direita-pergunta-3{
+        margin-top: 200px;
+        margin-left: -500px;
+    }
+    .contagem-3{
+        color: #05738d;
+        font-size: 30px;
+    }
+    .pergunta-3{
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .resposta-mito-verdade-3{
+        margin-top: 10px;
+        display: flex;
+    }
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 4 ----------------------------------  */
+    .fourth-quest{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-verdadeiro-4{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito-4{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .body-pergunta-4{
+        display: flex;
+    }
+    .img-quest-4{
+        margin-right: 30px;
+        margin-left: 60px;
+        width: 50%; 
+        height:auto;
+    }
+    .img-quest-4-respostas{
+        margin-right: 30px;
+        margin-left: 0px;
+        width: 80%; 
+        height:auto;
+    }
+    .direita-pergunta-4{
+        margin-top: 200px;
+        margin-left: -300px;
+    }
+    .contagem-4{
+        color: #05738d;
+        font-size: 30px;
+    }
+    .pergunta-4{
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .resposta-mito-verdade-4{
+        margin-top: 10px;
+        display: flex;
+    }
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 4 ----------------------------------  */
+    
+    /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 5 ----------------------------------  */
+    .fifth-quest{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-verdadeiro-5{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito-5{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .body-pergunta-5{
+        display: flex;
+    }
+    .img-quest-5{
+        margin-right: 30px;
+        margin-left: 60px;
+        width: 80%; 
+        height:auto;
+    }
+    .direita-pergunta-5{
+         margin-top: 200px;
+        /*margin-left: -300px; */
+    }
+    .contagem-5{
+        color: #05738d;
+        font-size: 30px;
+    }
+    .pergunta-5{
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .resposta-mito-verdade-5{
+        margin-top: 10px;
+        display: flex;
+    }
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 5 ----------------------------------  */
+    
+    /* --------------------- PERGUNTAS E RESPOSTAS DA PERGUNTA 6 ----------------------------------  */
+    .sixth-quest{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-verdadeiro-6{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .resposta-mito-6{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .body-pergunta-6{
+        display: flex;
+    }
+    .img-quest-6{
+        margin-right: 30px;
+        margin-left: 60px;
+        width: 60%; 
+        height:auto;
+    }
+    .img-quest-6-respostas{
+        margin-right: 30px;
+        margin-left: 0px;
+        width: 90%; 
+        height:auto;
+    }
+    .direita-pergunta-6{
+         margin-top: 200px;
+        margin-left: -300px;
+    }
+    .contagem-6{
+        color: #05738d;
+        font-size: 30px;
+    }
+    .pergunta-6{
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .resposta-mito-verdade-6{
+        margin-top: 10px;
+        display: flex;
+    }
+    /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 6 ----------------------------------  */
+    
+    /* ----------------------------- PÁGINA DE FINALIZAÇÃO DO QUIZ  ----------------------------------  */
+    
+    .finalizacao{
+        background-color: #f5f4ef;
+        display: none;
+    }
+    .body-finalizacao{
+        margin-top: -3%;
+        background-color: #f5f4ef;
+        display: flex;
+    }
+    .esquerda-finalizacao{
+        margin-left: 10%;
+        margin-top: 10%; 
+    }
+    .acerto{
+        margin-left: 8.7%;
+        font-size: 30px;
+    }
+    .texto-acerto{
+        padding: 0;
+        text-align: left;
+        margin-top: 25px;
+        font-weight: 100;
+        margin-left: 0%;
+        margin-right: 6%;
+        font-weight: 600;
+    }
+    .acertos{
+        margin-left: -10%;
+    }
+    .proximoESociais{
+        display: flex;
+    }
+    .preencher{
+        margin-top: 5%;
+        margin-right: 10%;
+        margin-left: 0%;
+        
+        height: 55%;
+        background-color: #009dbf;
+    
+        /* borda da div */
+        border-radius: 10px;
+    
+    }
+    .titulo-preencher-box{
+        margin-left: 8%;
+        color: #ffffff;
+        padding-top: 20px;
+        font-size: 0.8em;
+        font-weight: 600;
+        /* text-shadow: 4px 4px 4px rgba(46,91,173,0.6); */
+    }
+    .input-nome{
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 6%;
+        width: 85%;
+        padding-left: 5%;
+        
+        /* borda do botão */
+        border: none;
+    }
+    .input-email{
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 6%;
+        width: 85%;
+        padding-left: 5%;
+        
+        /* borda do botão */
+        border: none;        
+    }
+    .botao-envia-dados{
+        height: 2.5em;
+        width: 85%;
+        margin-left: 6%;
+        margin-top: 20px;
+        border-width: 1px;
+        border-color: white;
+        background-color: #009cbf00;
+        color: #ffffff;
+    }
+    .botao-envia-dados:hover{
+        background-color: #ffffff;
+        color: #009dbf;
+        transition-duration: 1s;
+    }
+
+    .enviar-info-texto{
+        text-align: center;
+        color: white;
+    }
+    .refazer{
+        margin-top: 25px;
+        background-color: #ffffff00;
+        height: 30px;
+        width: 150px;
+        margin-left: 24%;
+        color: #009dbf;
+        margin-left: 2%;
+    
+        /* borda do botão  */
+        border-color: #009dbf;
+        border-radius: 7px;
+    }
+    .refazer:hover{
+        background-color: #009dbf;
+        color: white;
+        transition-duration: 0.9s;
+    }
+    .social-final{
+        padding-top: 15px;
+        margin-left: 12%;
+    }
+    .final-image{
+        margin-left: 8%;
+        margin-top: 5%;
+        height: auto;
+        width: 80%;
+    }
+    
+    /* ----------------------------- FIM DA PÁGINA DE FINALIZAÇÃO DO QUIZ  ----------------------------------  */
+    
+    /* ----------------------------- BOTÕES E ELEMENTOS AVULSOS  ----------------------------------  */
+    /* ----------------------------- FIM BOTÕES E ELEMENTOS AVULSOS  ----------------------------------  */
+    
+    
+    .verdadeiro{
+        background-color: #ffffff00;
+        width: 150px;
+        height: 50px;
+        margin-left: 30px;
+        /* borda do botão: */
+        border-radius: 5px;
+    }
+    .verdadeiro:hover{
+        color: white;
+        background-color: black;
+        transition-duration: 0.6s;
+    }
+    .mito{
+        background-color: #ffffff00;
+        width: 150px;
+        height: 50px;
+        margin-left: 10px;
+        
+        /* borda do botão  */
+        border-radius: 5px;
+    
+    }
+    .mito:hover{
+        color: white;
+        background-color: black;
+        transition-duration: 0.6s;
+    }
+    .correct-answer{
+        font-size: 30px;
+        margin-top: 6%;
+        margin-left: 5%;
+    }
+    .text-tittle{
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 3%;
+        font-size: 40px;
+    }
+    .text{
+        margin-top: 0px;
+        font-weight: 100;
+        font-size: 25px;
+        margin-right: 5%;
+        margin-left: 5%; 
+        text-align: left;
+        padding-right: 15%;
+    }
+    .finalizacao{
+        height: 100%;
+        width: 100%;
+    }    
+    .proximo-quiz{
+        margin-top: 2em;
+        height: 40px;
+        margin-left: 0%;
+        background-color: #009dbf;
+        border: none;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+    
+        /* borda do botão :  */
+        border-radius: 4px;
+    }
+    .rodape-de-resposta{
+        margin-top: 10%;
+        width: 100%;
+        height: 5%;
+        background-color: black;
+        display: flex;
+    }
+    .direitos{
+        margin-right: -70%;
+        margin-left:-5%;
+        padding-top: 25px;
+        font-size: 15px;
+        color: white;
+    }
+    .social{
+        padding-left: 80%;
+        margin-left: 20%;
+        margin-right: 0%;
+        display: flex;
+    }
+    .compartilhe{
+        padding-top: 25px;
+        margin-right: -300px;
+        padding-left: 55%;
+        font-size: 15px;
+    }
+    }
