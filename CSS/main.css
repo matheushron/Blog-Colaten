@@ -1,8 +1,12 @@
 @media only screen and (min-width: 200px){
 
     /* ---------------------  PÁGINA INICIAL DO QUIZ ----------------------------------  */
-    
-    body{
+    html{
+        width: 100%;
+        height: 100%;
+    }
+
+    .body-pagina{
         background-color: #f5f4ef;
         height: 100%;
         width: 100%;
@@ -11,6 +15,7 @@
     }
     .fundo{
         background-color: #f5f4ef;
+        margin-left: 1.5%;
     }
     .logo-button{
         margin-top: 6%;
@@ -18,7 +23,7 @@
         height: 70px;
         width: 120px;
         border: none;
-        background-color: rgb(255, 255, 255);
+        background-color: #f5f4ef;
     }
     .imagem-logo{
         margin-left: 0px;
@@ -26,7 +31,7 @@
         height:auto;
     }
     .initial-image{
-        margin-left: 21.5%;
+        margin-left: 29.5%;
         margin-top: 5%;
         height: auto;
         width: 50%;
@@ -56,7 +61,7 @@
     .faca-quiz-inicial{
         color: white;
         height: 30px;
-        margin-left: 5%;
+        margin-left: 9.8%;
         background-color: #009dbf;
         border: none;
         text-align: center;
@@ -80,13 +85,10 @@
         font-size: 12px;
         font-weight: 400;
     }
-    .rodape-do-inicio{
-        margin-top: 10%;
-        width: 100%;
-        height: 100px;
-        background-color: black;
-        display: flex;
+    .body-resposta-1{
+        margin-left: 3.5%;
     }
+
     /* --------------------- FIM DA PÁGINA INICIAL DO QUIZ ----------------------------------  */
     
     /* ---------------------  PERGUNTAS E RESPOSTAS ----------------------------------  */
@@ -95,6 +97,8 @@
     .fisrt-quest{
         background-color: #f5f4ef;
         display: block;
+        width: 100%;
+        height: 100%;
     }
     .resposta-verdadeiro{
         background-color: #f5f4ef;
@@ -105,27 +109,26 @@
         display: none;
     }
     .img-quest-1{
-        margin-right: 30px;
-        margin-left: 60px;
+        margin-left: 15%;
         width: 70%; 
         height:auto;
     }
     .img-quest-1-resposta{
         width: 100%;
     }
+    .parte-direita-pergunta1{
+        padding: 10%;
+    }
     .contagem-1{
         color: #05738d;
-        margin-left: -160px;
         font-size: 20px;
     }
     .pergunta-1{
         margin-top: 10px;
-        margin-left: -160px;
         font-size: 35px;
     }
     .resposta-mito-verdade{
-        margin-left: -205px;
-        margin-top: 40px;
+        margin-left: -3%;
         display: flex;
     }
     /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 FIM ----------------------------------  */
@@ -143,6 +146,10 @@
         background-color: #f5f4ef;
         display: none;
     }
+    .body-resposta-2{
+        /* display: flex; */
+    }
+
     .img-quest-2{
         padding-top: 0%;
         margin-right: 30px;
@@ -155,19 +162,28 @@
     }
     .contagem-2{
         color: #05738d;
-        padding-left: 13px;
+        padding-left: 0.8em;
         font-size: 13px;
         
     }
     .pergunta-2{
         margin-top: 0px;
-        margin-left: 13px;
+        margin-left: 0.3em;
         font-size: 25px;
+    }
+    .parte-direita-pergunta2{
+        margin-left: 6%;
     }
     .resposta-mito-verdade-2{
         margin-left: -5px;
         margin-top: 0px;
         display: flex;
+    }
+    .text-tittle-2{
+        margin-right: 5%;
+        margin-left: 4%;
+        margin-top: 1em;
+        font-size: 25px;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
     
@@ -185,27 +201,31 @@
         display: none;
     }
     .img-quest-3{
-        margin-right: 30px;
-        margin-left: 70px;
-        width: 60%; 
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%; 
         height:auto;
+    }
+    .direita-pergunta-3{
+        margin-left: 1.5em;
     }
     .img-quest-3-respostas{
         width: 60%;
     }
     .contagem-3{
         color: #05738d;
-        padding-left: 13px;
+        padding-left: 0.5em;
         font-size: 20px;
     }
     .pergunta-3{
         margin-top: 0px;
-        margin-left: 13px;
+        margin-left: 0.3em;
         font-size: 25px;
     }
     .resposta-mito-verdade-3{
+        padding-right: 10%;
         margin-left: -5px;
-        margin-top: 80px;
+        /* margin-top: 80px; */
         display: flex;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
@@ -230,7 +250,11 @@
         height:auto;
     }
     .img-quest-4-respostas{
+        margin-left: 3em;
         width: 60%;
+    }
+    .direita-pergunta-4{
+        margin-left: 1.5em;
     }
     .contagem-4{
         color: #05738d;
@@ -243,8 +267,8 @@
         font-size: 25px;
     }
     .resposta-mito-verdade-4{
+        padding-right: 10%;
         margin-left: -5px;
-        margin-top: 80px;
         display: flex;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 4 ----------------------------------  */
@@ -268,6 +292,9 @@
         width: 60%; 
         height:auto;
     }
+    .direita-pergunta-5{
+        padding-left: 1.5em;
+    }
     .contagem-5{
         color: #05738d;
         padding-left: 13px;
@@ -279,8 +306,8 @@
         font-size: 25px;
     }
     .resposta-mito-verdade-5{
+        padding-right: 10%;
         margin-left: -5px;
-        margin-top: 80px;
         display: flex;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 5 ----------------------------------  */
@@ -289,6 +316,7 @@
     .sixth-quest{
         background-color: #f5f4ef;
         display: none;
+        height: 100%;
     }
     .resposta-verdadeiro-6{
         background-color: #f5f4ef;
@@ -304,7 +332,11 @@
         width: 60%; 
         height:auto;
     }
+    .direita-pergunta-6{
+        margin-left: 1.5em;
+    }
     .img-quest-6-respostas{
+        margin-left: 4em;
         width: 60%;
     }
     .contagem-6{
@@ -318,8 +350,8 @@
         font-size: 25px;
     }
     .resposta-mito-verdade-6{
+        padding-right: 10%;
         margin-left: -5px;
-        margin-top: 80px;
         display: flex;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 6 ----------------------------------  */
@@ -332,51 +364,9 @@
         height: 100%;
         width: 100%;
     }
-    .verdadeiro{
-        background-color: #ffffff00;
-        width: 130px;
-        height: 50px;
-        margin-left: 30px;
-        
-        /* borda do botão: */
-        border-radius: 5px;
-    }
-    .verdadeiro:hover{
-        color: white;
-        background-color: black;
-        transition-duration: 0.6s;
-    }
-    .mito{
-        background-color: #ffffff00;
-        width: 130px;
-        height: 50px;
-        margin-left: 10px;
-        
-        /* borda do botão  */
-        border-radius: 5px;
-    
-    }
-    .mito:hover{
-        color: white;
-        background-color: black;
-        transition-duration: 0.6s;
-    }
-    .correct-answer{
-        margin-top: 4%;
-        margin-left: 6%;
-    }
-    .text-tittle{
-        margin-right: 5%;
-        margin-left: 5%;
-        margin-top: 10%;
-        font-size: 25px;
-    }
-    .text{
-        margin-top: 15px;
-        font-weight: 100;
-        margin-right: 5%;
-        margin-left: 5%; 
-        text-align: left;
+    .body-finalizacao{
+        padding-left: 0.5%;
+        padding-right: 0.5%;
     }
     .final-image{
         margin-left: 4.5%;
@@ -386,12 +376,13 @@
     
     }
     .acerto{
-        margin-left: 6%;
+        text-align: center;
+        margin-left: 2%;
         font-size: 30px;
     }
     .texto-acerto{
         text-align: center;
-        margin-top: 25px;
+        margin-top: 0%;
         font-weight: 100;
         margin-left: 6%;
         margin-right: 6%;
@@ -401,8 +392,8 @@
         background-color: #ffffff;
         height: 30px;
         width: 150px;
-        margin-left: 26%;
-    
+        margin-left: 25%;
+        color: #009dbf;
         /* borda do botão  */
         border-color: #009dbf;
         border-radius: 7px;
@@ -458,6 +449,7 @@
         margin-top: 20px;
         border-color: #ffffff;
         background-color: #009cbf00;
+        color: white;
     }
     .enviar-info-texto{
         text-align: center;
@@ -477,31 +469,87 @@
         border-radius: 4px;
     }
     .rodape-de-resposta{
-        margin-top: 29%;
-        width: 110%;
-        height: 110px;
+        margin-top: 5%;
+        width: 100%;
+        height: 5%;
         background-color: black;
-        display: flex;
-        padding-left: 17%;
+        padding-left: 2%;
     }
     .direitos{
-        margin-right: -159px;
-        margin-left: 15%;
-        padding-top: 3%;
+        margin-left: 25%;
+        padding-top: 0%;
         font-size: 9px;
         color: white;
     }
     .compartilhe{
-        margin-top: 25%;
-        margin-left: -25%;
-        font-size: 13px;
+        margin-top: -5%;
+        margin-left: 25%;
+        font-size: 9px;
+    }
+    /* a#facebook{
+        display: block;
+    }
+    a#linkedin{
+        display: block;
+    }
+    a#twitter{
+        display: block;
+    }
+    a#email{
+        display: block;
+    } */
+    .verdadeiro{
+        background-color: #ffffff00;
+        width: 130px;
+        height: 50px;
+        margin-left: 30px;
+        
+        /* borda do botão: */
+        border-radius: 5px;
+    }
+    .verdadeiro:hover{
+        color: white;
+        background-color: black;
+        transition-duration: 0.6s;
+    }
+    .mito{
+        background-color: #ffffff00;
+        width: 130px;
+        height: 50px;
+        margin-left: 10px;
+        
+        /* borda do botão  */
+        border-radius: 5px;
+    
+    }
+    .mito:hover{
+        color: white;
+        background-color: black;
+        transition-duration: 0.6s;
+    }
+    .correct-answer{
+        margin-top: 4%;
+        margin-left: 6%;
+    }
+    .text-tittle{
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    .text{
+        margin-top: 15px;
+        font-weight: 100;
+        margin-right: 5%;
+        margin-left: 5%; 
+        text-align: left;
     }
     }
 @media only screen and (min-width: 600px){
 
         /* ---------------------  PÁGINA INICIAL DO QUIZ ----------------------------------  */
         
-        body{
+        .body-pagina{
             background-color: #f5f4ef;
             height: 100%;
             width: 100%;
@@ -517,11 +565,11 @@
             height: 70px;
             width: 120px;
             border: none;
-            background-color: rgb(255, 255, 255);
+            background-color: #f5f4ef;
         }
         .imagem-logo{
             margin-left: 0px;
-            width: 100%; 
+            width: 150%; 
             height:auto;
         }
         .initial-image{
@@ -565,7 +613,7 @@
         }
         .faca-quiz{
             height: 30px;
-            margin-left: 5%;
+            margin-left: 3%;
             background-color: #009dbf;
             border: none;
             text-align: center;
@@ -579,12 +627,11 @@
             font-size: 12px;
             font-weight: 400;
         }
-        .rodape-do-inicio{
+        .rodape-do-resposta{
             margin-top: 10%;
             width: 100%;
             height: 100px;
             background-color: black;
-            display: flex;
         }
         /* --------------------- FIM DA PÁGINA INICIAL DO QUIZ ----------------------------------  */
         
@@ -612,6 +659,10 @@
         .img-quest-1-resposta{
             width: 100%;
         }
+        .parte-direita-pergunta1{
+            margin-top: -6em;
+            margin-left: 10em;
+        }
         .contagem-1{
             color: #05738d;
             margin-left: -160px;
@@ -623,7 +674,7 @@
             font-size: 35px;
         }
         .resposta-mito-verdade{
-            margin-left: -205px;
+            margin-left: -11em;
             margin-top: 40px;
             display: flex;
         }
@@ -645,12 +696,16 @@
         .img-quest-2{
             padding-top: 0%;
             margin-right: 30px;
-            margin-left: 25px;
-            width: 80%; 
+            margin-left: 10em;
+            width: 50%; 
             height:auto;
         }
         .img-quest-2-respostas{
             width: 80%;
+        }
+        .parte-direita-pergunta2{
+            margin-left: 12em;
+            
         }
         .contagem-2{
             color: #05738d;
@@ -667,6 +722,18 @@
             margin-left: -5px;
             margin-top: 0px;
             display: flex;
+        }
+        .parte-esquerda-resposta-2{
+            margin-left: 0em;
+        }
+        .answer-text-2{
+            margin-top: -3.5em;
+        }
+        .text-tittle-2{
+            margin-right: 5%;
+            margin-left: 4%;
+            margin-top: 3em;
+            font-size: 25px;
         }
         /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
         
@@ -685,12 +752,15 @@
         }
         .img-quest-3{
             margin-right: 30px;
-            margin-left: 70px;
+            margin-left: 8em;
             width: 60%; 
             height:auto;
         }
         .img-quest-3-respostas{
             width: 60%;
+        }
+        .direita-pergunta-3{
+            margin-left: 10em;
         }
         .contagem-3{
             color: #05738d;
@@ -704,7 +774,7 @@
         }
         .resposta-mito-verdade-3{
             margin-left: -5px;
-            margin-top: 80px;
+            margin-top: 0em;
             display: flex;
         }
         /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
@@ -724,12 +794,15 @@
         }
         .img-quest-4{
             margin-right: 30px;
-            margin-left: 70px;
+            margin-left: 8.5em;
             width: 60%; 
             height:auto;
         }
         .img-quest-4-respostas{
             width: 60%;
+        }
+        .direita-pergunta-4{
+            margin-left: 7em;
         }
         .contagem-4{
             color: #05738d;
@@ -742,8 +815,8 @@
             font-size: 25px;
         }
         .resposta-mito-verdade-4{
-            margin-left: -5px;
-            margin-top: 80px;
+            margin-left: 0em;
+            margin-top: 1em;
             display: flex;
         }
         /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 4 ----------------------------------  */
@@ -763,9 +836,13 @@
         }
         .img-quest-5{
             margin-right: 30px;
-            margin-left: 70px;
+            margin-left: 7em;
             width: 60%; 
             height:auto;
+        }
+        .direita-pergunta-5{
+            padding-right: 8em;
+            margin-left: 8em;
         }
         .contagem-5{
             color: #05738d;
@@ -778,8 +855,8 @@
             font-size: 25px;
         }
         .resposta-mito-verdade-5{
-            margin-left: -5px;
-            margin-top: 80px;
+            margin-left: 0px;
+            margin-top: 1em;
             display: flex;
         }
         /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 5 ----------------------------------  */
@@ -799,12 +876,16 @@
         }
         .img-quest-6{
             margin-right: 30px;
-            margin-left: 70px;
-            width: 60%; 
+            margin-left: 10em;
+            width: 60%;
             height:auto;
         }
         .img-quest-6-respostas{
             width: 60%;
+        }
+        .direita-pergunta-6{
+            margin-top: 2em;
+            margin-left: 10em;
         }
         .contagem-6{
             color: #05738d;
@@ -817,8 +898,8 @@
             font-size: 25px;
         }
         .resposta-mito-verdade-6{
-            margin-left: -5px;
-            margin-top: 80px;
+            margin-left: 0px;
+            margin-top: 1em;
             display: flex;
         }
         /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 6 ----------------------------------  */
@@ -863,47 +944,56 @@
         }
         .correct-answer{
             margin-top: 4%;
-            margin-left: 6%;
+            margin-left: 4%;
         }
         .text-tittle{
             margin-right: 5%;
-            margin-left: 5%;
-            margin-top: 10%;
+            margin-left: 3.5%;
+            margin-top: 2%;
             font-size: 25px;
         }
         .text{
             margin-top: 15px;
             font-weight: 100;
             margin-right: 5%;
-            margin-left: 5%; 
+            margin-left: 3.5%; 
             text-align: left;
         }
         .final-image{
-            margin-left: 19.5%;
-            margin-top: 5%;
+            margin-left: 5.5%;
+            margin-top: 15%;
             height: auto;
             width: 60%;
         
         }
         .acerto{
-            margin-left: 32%;
+            text-align: left;
+            margin-left: 14%;
+            font-size: 30px;
+        }
+        .acertos{
+            text-align: left;
+            margin-left: -7%;
             font-size: 30px;
         }
         .texto-acerto{
             text-align: left;
             margin-top: 25px;
             font-weight: 100;
-            margin-left: 6%;
+            margin-left: 8%;
             margin-right: 6%;
-            padding-left: 160px;
+            /* padding-left: 160px; */
             padding-right: 160px;
+        }
+        .proximoESociais{
+            display: flex;
         }
         .refazer{
             margin-top: 25px;
             background-color: #ffffff;
             height: 30px;
             width: 150px;
-            margin-left: 41%;
+            margin-left: 40%;
         
             /* borda do botão  */
             border-color: #009dbf;
@@ -914,11 +1004,12 @@
         }
         .social-final{
             padding-top: 15px;
-            margin-left: 39%;
+            margin-left: 10%;
         }
         .preencher{
-            margin-left: 10%;
+            margin-left: 7%;
             margin-right: 10%;
+            width: 50%;
             
             height: 220px;
             background-color: #009dbf;
@@ -937,7 +1028,7 @@
         .input-nome{
             height: 40px;
             margin-top: 10px;
-            margin-left: 6%;
+            margin-left: 8%;
             width: 85%;
             padding-left: 5%;
             /* borda do botão */
@@ -946,7 +1037,7 @@
         .input-email{
             height: 40px;
             margin-top: 20px;
-            margin-left: 6%;
+            margin-left: 8%;
             width: 85%;
             padding-left: 5%;
     
@@ -954,8 +1045,8 @@
             border: none;
         }
         .botao-envia-dados{
-            width: 80%;
-            margin-left: 10%;
+            width: 85%;
+            margin-left: 8%;
             margin-top: 20px;
             border-color: #ffffff;
             background-color: #009cbf00;
@@ -978,21 +1069,21 @@
             border-radius: 4px;
         }
         .rodape-de-resposta{
-            margin-top: 29%;
-            width: 110%;
+            margin-top: 3%;
+            width: 100%;
             height: 110px;
             background-color: black;
             display: flex;
         }
         .direitos{
-            margin-left: 20%;
+            margin-left: 35%;
             padding-top: 3%;
             font-size: 9px;
             color: white;
         }
         .compartilhe{
             margin-top: 20%;
-            margin-left: -23%;
+            margin-left: -97%;
             font-size: 13px;
         }
         .body-finalizacao{
@@ -1006,12 +1097,14 @@
         background-color: #f5f4ef;
         height: 100%;
         width: 100%;
-
         margin: 0%;
     }
     .fundo{
-        margin-left: 2.1%;
+        margin-left: 2.2%;
         background-color: #f5f4ef;
+    }
+    .div-1{
+        padding-left: 3.2%;
     }
     .logo-button{
         margin-top: 5%;
@@ -1051,7 +1144,7 @@
         margin-top: 5%;
     }
     .mito-verdade-texto{
-        margin-top: 10%;
+        margin-top: 0%;
         background-color: #f5f4ef;
         display: flex;
     }
@@ -1059,7 +1152,7 @@
         font-size: 23px;
         text-align: left;
         margin-left: 10%;
-        margin-right: 10%;
+        padding-right: 15%;
         margin-top: 3%;
     }
     .faca-quiz-inicial{
@@ -1104,24 +1197,27 @@
     
     /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 ----------------------------------  */
     .fisrt-quest{
+        width: 100%;
         background-color: #f5f4ef;
         display: block;
     }
     .resposta-verdadeiro{
+        width: 100%;
         background-color: #f5f4ef;
         display: none;
     }
     .resposta-mito{
+        width: 100%;
         background-color: #f5f4ef;
         display: none;
     }
     .pergunta-toda{
-        margin-top: 10%;
+        margin-top: 1%;
         display: flex;
     }
     .parte-direita-pergunta1{
-        margin-top: 10%;
-        margin-left: 15%;
+        margin-top: -5%;
+        margin-left: 5%;
         padding-right: 5%;
     }
     .img-quest-1{
@@ -1132,8 +1228,8 @@
     }
     .img-quest-1-resposta{
         margin-top: 40px;
-        margin-left: -100px;
-        width: 110%; 
+        /* margin-left: -150px; */
+        width: 100%; 
         height:auto;
     }
     .contagem-1{
@@ -1142,8 +1238,7 @@
         font-size: 30px;
     }
     .pergunta-1{
-        margin-top: 10px;
-        /* margin-left: -160px; */
+        margin-top: 0px;
         font-size: 35px;
     }
     .resposta-mito-verdade{
@@ -1152,12 +1247,17 @@
         display: flex;
     }
     .body-resposta-1{
+        width: 90%;
         display: flex;
     }
-    /* .parte-esquerda-resposta-1{
-        margin-right: 20%;
-        font-size: 25px;
-    } */
+    .parte-esquerda-resposta-1{
+        width: 70%;
+        padding-right: 10%;
+        margin-left: 4.2%;
+    }
+    .divisao-da-imagem-resposta{
+        width: 30%;
+    }
     /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 FIM ----------------------------------  */
     
     /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
@@ -1175,7 +1275,7 @@
     }
     .parte-direita-pergunta2{
         width: 50%;
-        margin-top: 17%;
+        margin-top: 8%;
         margin-left: -30%;
         /* padding-right: 5%; */
     }
@@ -1188,13 +1288,11 @@
     .img-quest-2-respostas{
         margin-right: 30px;
         margin-left: 60px;
-        width: 80%; 
+        width: 100%; 
         height:auto;
     }
-    .answer-text-2{
-        /* padding-left: 10%; */
-    }
     .contagem-2{
+        margin-left: 1%;
         color: #05738d;
         font-size: 30px;
     }
@@ -1204,13 +1302,16 @@
         font-size: 35px;
     }
     .resposta-mito-verdade-2{
-        margin-left: -5px;
+        margin-left: 1%;
         margin-top: 20px;
         display: flex;
     }
-    parte-esquerda-resposta-2{
-        margin-top: -30px;
+    .parte-esquerda-resposta-2{
+        padding-left: 3em;
     }
+
+        
+    
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
     
     /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
@@ -1238,13 +1339,13 @@
     .img-quest-3-respostas{
         margin-top: 20px;
         margin-right: 30px;
-        margin-left: 0px;
-        width: 90%; 
+        margin-left: -10%;
+        width: 100%; 
         height:auto;
     }
     .direita-pergunta-3{
-        margin-top: 200px;
-        margin-left: -500px;
+        margin-top: 7%;
+        margin-left: -35%;
     }
     .contagem-3{
         color: #05738d;
@@ -1257,6 +1358,9 @@
     .resposta-mito-verdade-3{
         margin-top: 10px;
         display: flex;
+    }
+    .parte-esquerda-resposta-3{
+        padding-left: 3%;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
     
@@ -1289,8 +1393,8 @@
         height:auto;
     }
     .direita-pergunta-4{
-        margin-top: 200px;
-        margin-left: -300px;
+        margin-top: 5%;
+        margin-left: -30%;
     }
     .contagem-4{
         color: #05738d;
@@ -1320,17 +1424,19 @@
         display: none;
     }
     .body-pergunta-5{
+        margin-top: -7%;
         display: flex;
     }
     .img-quest-5{
+        margin-top: 10%;
         margin-right: 30px;
         margin-left: 60px;
         width: 80%; 
         height:auto;
     }
     .direita-pergunta-5{
-         margin-top: 200px;
-        /*margin-left: -300px; */
+         margin-top: 15%;
+        margin-left: -0%;
     }
     .contagem-5{
         color: #05738d;
@@ -1370,13 +1476,13 @@
     }
     .img-quest-6-respostas{
         margin-right: 30px;
-        margin-left: 0px;
-        width: 90%; 
+        margin-left: -10%;
+        width: 100%; 
         height:auto;
     }
     .direita-pergunta-6{
-         margin-top: 200px;
-        margin-left: -300px;
+        margin-top: 5%;
+        margin-left: -35%;
     }
     .contagem-6{
         color: #05738d;
@@ -1430,7 +1536,7 @@
         margin-top: 5%;
         margin-right: 10%;
         margin-left: 0%;
-        
+        width: 90%;
         height: 55%;
         background-color: #009dbf;
     
@@ -1439,7 +1545,7 @@
     
     }
     .titulo-preencher-box{
-        margin-left: 8%;
+        margin-left: 8.5%;
         color: #ffffff;
         padding-top: 20px;
         font-size: 0.8em;
@@ -1449,7 +1555,7 @@
     .input-nome{
         height: 40px;
         margin-top: 10px;
-        margin-left: 6%;
+        margin-left: 8%;
         width: 85%;
         padding-left: 5%;
         
@@ -1459,7 +1565,7 @@
     .input-email{
         height: 40px;
         margin-top: 20px;
-        margin-left: 6%;
+        margin-left: 8%;
         width: 85%;
         padding-left: 5%;
         
@@ -1469,7 +1575,7 @@
     .botao-envia-dados{
         height: 2.5em;
         width: 85%;
-        margin-left: 6%;
+        margin-left: 8%;
         margin-top: 20px;
         border-width: 1px;
         border-color: white;
@@ -1560,8 +1666,14 @@
         margin-top: 3%;
         font-size: 40px;
     }
+    .text-tittle-2{
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 2em;
+        font-size: 40px;
+    }
     .text{
-        margin-top: 0px;
+        margin-top: 0em;
         font-weight: 100;
         font-size: 25px;
         margin-right: 5%;
@@ -1587,22 +1699,22 @@
         border-radius: 4px;
     }
     .rodape-de-resposta{
-        margin-top: 10%;
+        margin-top: 3%;
         width: 100%;
-        height: 5%;
+        height: 8%;
         background-color: black;
         display: flex;
     }
     .direitos{
-        margin-right: -70%;
-        margin-left:-5%;
+        margin-right: 0%;
+        margin-left:24%;
         padding-top: 25px;
         font-size: 15px;
         color: white;
     }
     .social{
-        padding-left: 80%;
-        margin-left: 20%;
+        padding-left: 0%;
+        margin-left: 5%;
         margin-right: 0%;
         display: flex;
     }
