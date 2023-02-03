@@ -65,11 +65,14 @@
         background-color: #009dbf;
         border: none;
         text-align: center;
+        font-size: 8px;
+        padding-top: 1.5%;
     
         /* borda do botão :  */
         border-radius: 4px;
     }
     .faca-quiz{
+        color: white;
         height: 30px;
         margin-left: 5%;
         background-color: #009dbf;
@@ -128,9 +131,14 @@
         font-size: 35px;
     }
     .resposta-mito-verdade{
+        margin-top: 1.5em;
         margin-left: -3%;
         display: flex;
     }
+    .answer-text{
+        margin-top: -1.5em;
+    }
+
     /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 FIM ----------------------------------  */
     
     /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
@@ -148,6 +156,9 @@
     }
     .body-resposta-2{
         /* display: flex; */
+    }
+    .answer-text-2{
+        margin-top: -1em;
     }
 
     .img-quest-2{
@@ -176,7 +187,7 @@
     }
     .resposta-mito-verdade-2{
         margin-left: -5px;
-        margin-top: 0px;
+        margin-top: 1.5em;
         display: flex;
     }
     .text-tittle-2{
@@ -207,25 +218,26 @@
         height:auto;
     }
     .direita-pergunta-3{
-        margin-left: 1.5em;
+        margin-left: .5em;
     }
     .img-quest-3-respostas{
         width: 60%;
     }
     .contagem-3{
         color: #05738d;
-        padding-left: 0.5em;
+        margin-left: -11.5em;
         font-size: 20px;
     }
     .pergunta-3{
         margin-top: 0px;
-        margin-left: 0.3em;
+        margin-left: -2.5em;
         font-size: 25px;
     }
     .resposta-mito-verdade-3{
         padding-right: 10%;
-        margin-left: -5px;
-        /* margin-top: 80px; */
+        /* margin-left: 2.1em; */
+        margin-left: -.2em;
+        margin-top: 1.5em;
         display: flex;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 3 ----------------------------------  */
@@ -267,6 +279,7 @@
         font-size: 25px;
     }
     .resposta-mito-verdade-4{
+        margin-top: 1.5em;
         padding-right: 10%;
         margin-left: -5px;
         display: flex;
@@ -307,7 +320,8 @@
     }
     .resposta-mito-verdade-5{
         padding-right: 10%;
-        margin-left: -5px;
+        margin-left: 0em;
+        margin-top: 1.5em;
         display: flex;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 5 ----------------------------------  */
@@ -351,7 +365,8 @@
     }
     .resposta-mito-verdade-6{
         padding-right: 10%;
-        margin-left: -5px;
+        margin-left: 0em;
+        margin-top: 1.5em;
         display: flex;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 6 ----------------------------------  */
@@ -369,7 +384,7 @@
         padding-right: 0.5%;
     }
     .final-image{
-        margin-left: 4.5%;
+        margin-left: 11.5%;
         margin-top: 5%;
         height: 200px;
         width: 300px;
@@ -392,7 +407,7 @@
         background-color: #ffffff;
         height: 30px;
         width: 150px;
-        margin-left: 25%;
+        margin-left: 31%;
         color: #009dbf;
         /* borda do botão  */
         border-color: #009dbf;
@@ -403,12 +418,11 @@
     }
     .social-final{
         padding-top: 15px;
-        margin-left: 22%;
+        margin-left: 28.5%;
     }
     .preencher{
         margin-left: 10%;
         margin-right: 10%;
-        
         height: 220px;
         background-color: #009dbf;
     
@@ -417,7 +431,7 @@
     
     }
     .titulo-preencher-box{
-        margin-left: 6%;
+        margin-left: 9%;
         color: #ffffff;
         padding-top: 20px;
         font-size: 0.8em;
@@ -426,7 +440,7 @@
     .input-nome{
         height: 40px;
         margin-top: 10px;
-        margin-left: 6%;
+        margin-left: 8%;
         width: 85%;
         padding-left: 5%;
 
@@ -436,7 +450,7 @@
     .input-email{
         height: 40px;
         margin-top: 20px;
-        margin-left: 6%;
+        margin-left: 8%;
         width: 85%;
         padding-left: 5%;
 
@@ -444,8 +458,8 @@
         border: none;
     }
     .botao-envia-dados{
-        width: 80%;
-        margin-left: 10%;
+        width: 85%;
+        margin-left: 8%;
         margin-top: 20px;
         border-color: #ffffff;
         background-color: #009cbf00;
@@ -471,33 +485,22 @@
     .rodape-de-resposta{
         margin-top: 5%;
         width: 100%;
-        height: 5%;
+        height: 14%;
         background-color: black;
         padding-left: 2%;
+        padding-bottom: 1%;
     }
     .direitos{
-        margin-left: 25%;
-        padding-top: 0%;
-        font-size: 9px;
+        margin-left: 9%;
+        padding-top: 3%;
+        font-size: 13px;
         color: white;
     }
     .compartilhe{
         margin-top: -5%;
-        margin-left: 25%;
-        font-size: 9px;
+        margin-left: 9%;
+        font-size: 17px;
     }
-    /* a#facebook{
-        display: block;
-    }
-    a#linkedin{
-        display: block;
-    }
-    a#twitter{
-        display: block;
-    }
-    a#email{
-        display: block;
-    } */
     .verdadeiro{
         background-color: #ffffff00;
         width: 130px;
@@ -678,6 +681,9 @@
             margin-top: 40px;
             display: flex;
         }
+        .answer-text{
+            margin-top: 1em;
+        }
         /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 1 FIM ----------------------------------  */
         
         /* ---------------------  PERGUNTAS E RESPOSTAS DA PERGUNTA 2 ----------------------------------  */
@@ -752,24 +758,25 @@
         }
         .img-quest-3{
             margin-right: 30px;
-            margin-left: 8em;
-            width: 60%; 
+            margin-left: 7em;
+            width: 100%; 
             height:auto;
         }
         .img-quest-3-respostas{
             width: 60%;
         }
         .direita-pergunta-3{
-            margin-left: 10em;
+            margin-top: 17em;
+            margin-left: -15em;
         }
         .contagem-3{
             color: #05738d;
-            padding-left: 13px;
+            margin-left: -25.5em;
             font-size: 20px;
         }
         .pergunta-3{
             margin-top: 0px;
-            margin-left: 13px;
+            margin-left: -13.5em;
             font-size: 25px;
         }
         .resposta-mito-verdade-3{
@@ -1007,7 +1014,7 @@
             margin-left: 10%;
         }
         .preencher{
-            margin-left: 7%;
+            margin-left: 8%;
             margin-right: 10%;
             width: 50%;
             
@@ -1303,7 +1310,7 @@
     }
     .resposta-mito-verdade-2{
         margin-left: 1%;
-        margin-top: 20px;
+        margin-top: 2em;
         display: flex;
     }
     .parte-esquerda-resposta-2{
@@ -1333,7 +1340,7 @@
     .img-quest-3{
         margin-right: 30px;
         margin-left: 60px;
-        width: 50%; 
+        width: 120%; 
         height:auto;
     }
     .img-quest-3-respostas{
@@ -1344,19 +1351,22 @@
         height:auto;
     }
     .direita-pergunta-3{
-        margin-top: 7%;
-        margin-left: -35%;
+        margin-top: 19%;
+        margin-left: 15%;
     }
     .contagem-3{
+        margin-left: -8em;
         color: #05738d;
         font-size: 30px;
     }
     .pergunta-3{
+        margin-left: 0em;
         margin-top: 10px;
         font-size: 35px;
     }
     .resposta-mito-verdade-3{
-        margin-top: 10px;
+        margin-left: 5em;
+        margin-top: 1.5em;
         display: flex;
     }
     .parte-esquerda-resposta-3{
@@ -1394,7 +1404,7 @@
     }
     .direita-pergunta-4{
         margin-top: 5%;
-        margin-left: -30%;
+        margin-left: -25em;
     }
     .contagem-4{
         color: #05738d;
@@ -1405,7 +1415,7 @@
         font-size: 35px;
     }
     .resposta-mito-verdade-4{
-        margin-top: 10px;
+        margin-top: 2em;
         display: flex;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 4 ----------------------------------  */
@@ -1447,7 +1457,7 @@
         font-size: 35px;
     }
     .resposta-mito-verdade-5{
-        margin-top: 10px;
+        margin-top: 2em;
         display: flex;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 5 ----------------------------------  */
@@ -1481,8 +1491,8 @@
         height:auto;
     }
     .direita-pergunta-6{
-        margin-top: 5%;
-        margin-left: -35%;
+        margin-top: 10%;
+        margin-left: -25em;
     }
     .contagem-6{
         color: #05738d;
@@ -1493,7 +1503,7 @@
         font-size: 35px;
     }
     .resposta-mito-verdade-6{
-        margin-top: 10px;
+        margin-top: 2em;
         display: flex;
     }
     /* --------------------- FIM PERGUNTAS E RESPOSTAS DA PERGUNTA 6 ----------------------------------  */
@@ -1533,11 +1543,12 @@
         display: flex;
     }
     .preencher{
+        padding-bottom: 2em;
         margin-top: 5%;
         margin-right: 10%;
         margin-left: 0%;
         width: 90%;
-        height: 55%;
+        height: auto;
         background-color: #009dbf;
     
         /* borda da div */
